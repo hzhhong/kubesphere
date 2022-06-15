@@ -19,7 +19,7 @@ package generic
 import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"kubesphere.io/kubesphere/kube/pkg/quota/v1"
+	"github.com/hzhhong/kubesphere/kube/pkg/quota/v1"
 )
 
 // implements a basic configuration

@@ -24,8 +24,8 @@ import (
 
 	"github.com/beevik/etree"
 
-	devopsv1alpha3 "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3"
-	"kubesphere.io/kubesphere/pkg/simple/client/devops/jenkins/internal"
+	devopsv1alpha3 "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/devops/jenkins/internal"
 )
 
 func replaceXmlVersion(config, oldVersion, targetVersion string) string {

@@ -17,7 +17,7 @@ limitations under the License.
 package apis
 
 import (
-	"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha1"
 )
 
 func init() {

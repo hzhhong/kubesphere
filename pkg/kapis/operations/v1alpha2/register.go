@@ -23,9 +23,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/kubernetes"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	"kubesphere.io/kubesphere/pkg/apiserver/runtime"
-	"kubesphere.io/kubesphere/pkg/server/errors"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/runtime"
+	"github.com/hzhhong/kubesphere/pkg/server/errors"
 )
 
 const (

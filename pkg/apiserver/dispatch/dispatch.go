@@ -27,10 +27,10 @@ import (
 	"k8s.io/apiserver/pkg/endpoints/handlers/responsewriters"
 	"k8s.io/klog"
 
-	clusterv1alpha1 "kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/apiserver/request"
-	clusterinformer "kubesphere.io/kubesphere/pkg/client/informers/externalversions/cluster/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/utils/clusterclient"
+	clusterv1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/request"
+	clusterinformer "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/cluster/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/utils/clusterclient"
 )
 
 const proxyURLFormat = "/api/v1/namespaces/kubesphere-system/services/:ks-apiserver:/proxy%s"

@@ -17,13 +17,13 @@ limitations under the License.
 package v1alpha2
 
 import (
-	"kubesphere.io/kubesphere/pkg/apiserver/authorization/authorizer"
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned"
-	"kubesphere.io/kubesphere/pkg/client/informers/externalversions"
-	"kubesphere.io/kubesphere/pkg/models/devops"
-	devopsClient "kubesphere.io/kubesphere/pkg/simple/client/devops"
-	"kubesphere.io/kubesphere/pkg/simple/client/s3"
-	"kubesphere.io/kubesphere/pkg/simple/client/sonarqube"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authorization/authorizer"
+	"github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
+	"github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
+	"github.com/hzhhong/kubesphere/pkg/models/devops"
+	devopsClient "github.com/hzhhong/kubesphere/pkg/simple/client/devops"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/s3"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/sonarqube"
 )
 
 type ProjectPipelineHandler struct {

@@ -26,7 +26,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/assert"
 
-	"kubesphere.io/kubesphere/pkg/simple/client/auditing"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/auditing"
 )
 
 func MockElasticsearchService(pattern string, fakeCode int, fakeResp string) *httptest.Server {

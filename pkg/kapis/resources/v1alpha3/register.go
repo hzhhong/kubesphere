@@ -22,14 +22,14 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"sigs.k8s.io/controller-runtime/pkg/cache"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	"kubesphere.io/kubesphere/pkg/api/resource/v1alpha2"
-	"kubesphere.io/kubesphere/pkg/apiserver/query"
-	"kubesphere.io/kubesphere/pkg/apiserver/runtime"
-	"kubesphere.io/kubesphere/pkg/informers"
-	"kubesphere.io/kubesphere/pkg/models/components"
-	resourcev1alpha2 "kubesphere.io/kubesphere/pkg/models/resources/v1alpha2/resource"
-	resourcev1alpha3 "kubesphere.io/kubesphere/pkg/models/resources/v1alpha3/resource"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	"github.com/hzhhong/kubesphere/pkg/api/resource/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/query"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/runtime"
+	"github.com/hzhhong/kubesphere/pkg/informers"
+	"github.com/hzhhong/kubesphere/pkg/models/components"
+	resourcev1alpha2 "github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha2/resource"
+	resourcev1alpha3 "github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha3/resource"
 
 	"net/http"
 )

@@ -31,15 +31,15 @@ import (
 	kubefake "k8s.io/client-go/kubernetes/fake"
 	"k8s.io/klog"
 
-	netv1alpha1 "kubesphere.io/kubesphere/pkg/apis/network/v1alpha1"
-	wkspv1alpha1 "kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha1"
-	ksfake "kubesphere.io/kubesphere/pkg/client/clientset/versioned/fake"
-	ksinformers "kubesphere.io/kubesphere/pkg/client/informers/externalversions"
-	nsnppolicyinformer "kubesphere.io/kubesphere/pkg/client/informers/externalversions/network/v1alpha1"
-	workspaceinformer "kubesphere.io/kubesphere/pkg/client/informers/externalversions/tenant/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/constants"
-	"kubesphere.io/kubesphere/pkg/controller/network/nsnetworkpolicy/provider"
-	options "kubesphere.io/kubesphere/pkg/simple/client/network"
+	netv1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/network/v1alpha1"
+	wkspv1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha1"
+	ksfake "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/fake"
+	ksinformers "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
+	nsnppolicyinformer "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/network/v1alpha1"
+	workspaceinformer "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/tenant/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/controller/network/nsnetworkpolicy/provider"
+	options "github.com/hzhhong/kubesphere/pkg/simple/client/network"
 )
 
 var (

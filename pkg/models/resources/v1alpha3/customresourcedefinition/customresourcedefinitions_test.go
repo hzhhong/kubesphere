@@ -26,8 +26,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	"kubesphere.io/kubesphere/pkg/apiserver/query"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/query"
 )
 
 var crds = []*v1.CustomResourceDefinition{

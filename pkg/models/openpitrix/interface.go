@@ -23,11 +23,11 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/apis/application/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned"
-	ks_informers "kubesphere.io/kubesphere/pkg/informers"
-	"kubesphere.io/kubesphere/pkg/simple/client/s3"
-	"kubesphere.io/kubesphere/pkg/utils/reposcache"
+	"github.com/hzhhong/kubesphere/pkg/apis/application/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
+	ks_informers "github.com/hzhhong/kubesphere/pkg/informers"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/s3"
+	"github.com/hzhhong/kubesphere/pkg/utils/reposcache"
 )
 
 type Interface interface {

@@ -35,8 +35,8 @@ import (
 	metricsV1beta1 "k8s.io/metrics/pkg/apis/metrics/v1beta1"
 	metricsclient "k8s.io/metrics/pkg/client/clientset/versioned"
 
-	"kubesphere.io/kubesphere/pkg/simple/client/k8s"
-	"kubesphere.io/kubesphere/pkg/simple/client/monitoring"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/k8s"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/monitoring"
 )
 
 // metricsServer implements monitoring interface backend by metrics-server

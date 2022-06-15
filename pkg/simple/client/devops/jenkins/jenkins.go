@@ -31,7 +31,7 @@ import (
 
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/simple/client/devops"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/devops"
 )
 
 // Basic Authentication

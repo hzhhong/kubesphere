@@ -16,7 +16,7 @@ limitations under the License.
 
 // +k8s:openapi-gen=true
 // +k8s:deepcopy-gen=package,register
-// +k8s:conversion-gen=kubesphere.io/kubesphere/pkg/apis/types
+// +k8s:conversion-gen=github.com/hzhhong/kubesphere/pkg/apis/types
 // +k8s:defaulter-gen=TypeMeta
 // +groupName=types.kubefed.io
 package v1beta1

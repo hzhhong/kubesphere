@@ -25,14 +25,14 @@ import (
 	"k8s.io/apiserver/pkg/authentication/user"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	devopsv1alpha3 "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3"
-	tenantv1alpha1 "kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/apiserver/authorization/authorizer"
-	"kubesphere.io/kubesphere/pkg/apiserver/query"
-	"kubesphere.io/kubesphere/pkg/apiserver/request"
-	"kubesphere.io/kubesphere/pkg/constants"
-	resources "kubesphere.io/kubesphere/pkg/models/resources/v1alpha3"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	devopsv1alpha3 "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3"
+	tenantv1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authorization/authorizer"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/query"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/request"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	resources "github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha3"
 )
 
 func (t *tenantOperator) ListDevOpsProjects(user user.Info, workspace string, queryParam *query.Query) (*api.ListResult, error) {

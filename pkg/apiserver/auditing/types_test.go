@@ -33,12 +33,12 @@ import (
 	k8srequest "k8s.io/apiserver/pkg/endpoints/request"
 	fakek8s "k8s.io/client-go/kubernetes/fake"
 
-	auditingv1alpha1 "kubesphere.io/kubesphere/pkg/apis/auditing/v1alpha1"
-	v1alpha12 "kubesphere.io/kubesphere/pkg/apiserver/auditing/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/apiserver/request"
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned/fake"
-	"kubesphere.io/kubesphere/pkg/informers"
-	"kubesphere.io/kubesphere/pkg/utils/iputil"
+	auditingv1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/auditing/v1alpha1"
+	v1alpha12 "github.com/hzhhong/kubesphere/pkg/apiserver/auditing/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/request"
+	"github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/fake"
+	"github.com/hzhhong/kubesphere/pkg/informers"
+	"github.com/hzhhong/kubesphere/pkg/utils/iputil"
 )
 
 var noResyncPeriodFunc = func() time.Duration { return 0 }

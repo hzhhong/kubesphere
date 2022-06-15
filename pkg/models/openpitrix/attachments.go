@@ -19,9 +19,9 @@ import (
 	"github.com/go-openapi/strfmt"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/apis/application/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/simple/client/s3"
-	"kubesphere.io/kubesphere/pkg/utils/idutils"
+	"github.com/hzhhong/kubesphere/pkg/apis/application/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/s3"
+	"github.com/hzhhong/kubesphere/pkg/utils/idutils"
 )
 
 type AttachmentInterface interface {

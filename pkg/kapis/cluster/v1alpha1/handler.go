@@ -43,12 +43,12 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	"kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/apiserver/config"
-	"kubesphere.io/kubesphere/pkg/client/informers/externalversions"
-	clusterlister "kubesphere.io/kubesphere/pkg/client/listers/cluster/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/version"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	"github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/config"
+	"github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
+	clusterlister "github.com/hzhhong/kubesphere/pkg/client/listers/cluster/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/version"
 )
 
 const (

@@ -26,7 +26,7 @@ import (
 	"k8s.io/klog"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	quotav1alpha2 "kubesphere.io/kubesphere/pkg/apis/quota/v1alpha2"
+	quotav1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/quota/v1alpha2"
 
 	lru "github.com/hashicorp/golang-lru"
 
@@ -35,7 +35,7 @@ import (
 	utilwait "k8s.io/apimachinery/pkg/util/wait"
 	etcd "k8s.io/apiserver/pkg/storage/etcd3"
 
-	utilquota "kubesphere.io/kubesphere/kube/pkg/quota/v1"
+	utilquota "github.com/hzhhong/kubesphere/kube/pkg/quota/v1"
 )
 
 // Following code copied from github.com/openshift/apiserver-library-go/pkg/admission/quota/clusterresourcequota

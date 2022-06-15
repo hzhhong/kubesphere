@@ -30,13 +30,13 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/cli-runtime/pkg/resource"
 
-	"kubesphere.io/kubesphere/pkg/apis/application/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/constants"
-	"kubesphere.io/kubesphere/pkg/server/params"
-	"kubesphere.io/kubesphere/pkg/simple/client/openpitrix/helmrepoindex"
-	"kubesphere.io/kubesphere/pkg/utils/idutils"
-	"kubesphere.io/kubesphere/pkg/utils/sliceutil"
-	"kubesphere.io/kubesphere/pkg/utils/stringutils"
+	"github.com/hzhhong/kubesphere/pkg/apis/application/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/server/params"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/openpitrix/helmrepoindex"
+	"github.com/hzhhong/kubesphere/pkg/utils/idutils"
+	"github.com/hzhhong/kubesphere/pkg/utils/sliceutil"
+	"github.com/hzhhong/kubesphere/pkg/utils/stringutils"
 )
 
 func convertRepoEvent(meta *metav1.ObjectMeta, state *v1alpha1.HelmRepoSyncState) *RepoEvent {

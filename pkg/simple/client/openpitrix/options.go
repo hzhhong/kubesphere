@@ -21,8 +21,8 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"kubesphere.io/kubesphere/pkg/simple/client/s3"
-	"kubesphere.io/kubesphere/pkg/utils/reflectutils"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/s3"
+	"github.com/hzhhong/kubesphere/pkg/utils/reflectutils"
 )
 
 type Options struct {

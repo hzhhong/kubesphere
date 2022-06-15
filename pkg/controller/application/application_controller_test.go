@@ -32,7 +32,7 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/application/api/v1beta1"
 
-	"kubesphere.io/kubesphere/pkg/controller/utils/servicemesh"
+	"github.com/hzhhong/kubesphere/pkg/controller/utils/servicemesh"
 )
 
 const (

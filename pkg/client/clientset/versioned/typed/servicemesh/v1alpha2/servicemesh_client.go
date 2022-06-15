@@ -20,8 +20,8 @@ package v1alpha2
 
 import (
 	rest "k8s.io/client-go/rest"
-	v1alpha2 "kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2"
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned/scheme"
+	v1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/scheme"
 )
 
 type ServicemeshV1alpha2Interface interface {

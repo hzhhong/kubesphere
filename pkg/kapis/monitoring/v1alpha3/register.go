@@ -20,18 +20,18 @@ package v1alpha3
 import (
 	"net/http"
 
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned"
+	"github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
 
 	"github.com/emicklei/go-restful"
 	restfulspec "github.com/emicklei/go-restful-openapi"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/kubernetes"
 
-	"kubesphere.io/kubesphere/pkg/apiserver/runtime"
-	"kubesphere.io/kubesphere/pkg/constants"
-	"kubesphere.io/kubesphere/pkg/informers"
-	model "kubesphere.io/kubesphere/pkg/models/monitoring"
-	"kubesphere.io/kubesphere/pkg/simple/client/monitoring"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/runtime"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/informers"
+	model "github.com/hzhhong/kubesphere/pkg/models/monitoring"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/monitoring"
 )
 
 const (

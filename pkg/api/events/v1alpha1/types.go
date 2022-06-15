@@ -22,7 +22,7 @@ import (
 
 	"github.com/emicklei/go-restful"
 
-	"kubesphere.io/kubesphere/pkg/simple/client/events"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/events"
 )
 
 type APIResponse struct {

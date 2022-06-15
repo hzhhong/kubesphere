@@ -19,8 +19,8 @@ limitations under the License.
 package notification
 
 import (
-	internalinterfaces "kubesphere.io/kubesphere/pkg/client/informers/externalversions/internalinterfaces"
-	v2beta1 "kubesphere.io/kubesphere/pkg/client/informers/externalversions/notification/v2beta1"
+	internalinterfaces "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/internalinterfaces"
+	v2beta1 "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/notification/v2beta1"
 )
 
 // Interface provides access to each of this group's versions.

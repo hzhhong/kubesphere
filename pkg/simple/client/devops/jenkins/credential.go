@@ -23,8 +23,8 @@ import (
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/klog"
 
-	devopsv1alpha3 "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3"
-	"kubesphere.io/kubesphere/pkg/simple/client/devops"
+	devopsv1alpha3 "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/devops"
 )
 
 const SSHCrenditalStaplerClass = "com.cloudbees.jenkins.plugins.sshcredentials.impl.BasicSSHUserPrivateKey"

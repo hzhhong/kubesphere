@@ -21,8 +21,8 @@ import (
 
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/apiserver/auditing"
-	"kubesphere.io/kubesphere/pkg/apiserver/request"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/auditing"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/request"
 )
 
 func WithAuditing(handler http.Handler, a auditing.Auditing) http.Handler {

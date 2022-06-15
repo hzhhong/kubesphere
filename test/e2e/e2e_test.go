@@ -20,7 +20,7 @@ import (
 	"os"
 	"testing"
 
-	"kubesphere.io/kubesphere/test/e2e/framework"
+	"github.com/hzhhong/kubesphere/test/e2e/framework"
 )
 
 func TestMain(m *testing.M) {

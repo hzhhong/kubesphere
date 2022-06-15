@@ -29,7 +29,7 @@ import (
 	"github.com/PuerkitoBio/goquery"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/simple/client/devops"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/devops"
 )
 
 type Pipeline struct {

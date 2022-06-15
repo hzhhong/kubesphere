@@ -22,7 +22,7 @@ import (
 
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/apiserver/authentication/oauth"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authentication/oauth"
 )
 
 var (

@@ -33,10 +33,10 @@ import (
 	"k8s.io/klog"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	iamv1alpha2informers "kubesphere.io/kubesphere/pkg/client/informers/externalversions/iam/v1alpha2"
-	"kubesphere.io/kubesphere/pkg/models"
+	iamv1alpha2informers "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/iam/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/models"
 
-	"kubesphere.io/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/constants"
 )
 
 const (

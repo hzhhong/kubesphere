@@ -9,8 +9,8 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"kubesphere.io/client-go/client"
 
-	"kubesphere.io/kubesphere/test/e2e/framework"
-	"kubesphere.io/kubesphere/test/e2e/framework/workspace"
+	"github.com/hzhhong/kubesphere/test/e2e/framework"
+	"github.com/hzhhong/kubesphere/test/e2e/framework/workspace"
 )
 
 var _ = Describe("API Test", func() {

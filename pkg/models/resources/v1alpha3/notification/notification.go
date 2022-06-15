@@ -22,10 +22,10 @@ import (
 	"k8s.io/apimachinery/pkg/api/meta"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	"kubesphere.io/kubesphere/pkg/apiserver/query"
-	ksinformers "kubesphere.io/kubesphere/pkg/client/informers/externalversions"
-	"kubesphere.io/kubesphere/pkg/models/resources/v1alpha3"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/query"
+	ksinformers "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
+	"github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha3"
 )
 
 type configGetter struct {

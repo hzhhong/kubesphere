@@ -19,9 +19,9 @@ package elasticsearch
 import (
 	"fmt"
 
-	"kubesphere.io/kubesphere/pkg/simple/client/es"
-	"kubesphere.io/kubesphere/pkg/simple/client/es/query"
-	"kubesphere.io/kubesphere/pkg/simple/client/events"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/es"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/es/query"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/events"
 )
 
 type client struct {

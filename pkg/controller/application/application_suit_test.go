@@ -34,7 +34,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 
-	"kubesphere.io/kubesphere/pkg/apis"
+	"github.com/hzhhong/kubesphere/pkg/apis"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -24,8 +24,8 @@ import (
 	k8serr "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/client-go/kubernetes"
 
-	"kubesphere.io/kubesphere/pkg/models/workloads"
-	"kubesphere.io/kubesphere/pkg/server/errors"
+	"github.com/hzhhong/kubesphere/pkg/models/workloads"
+	"github.com/hzhhong/kubesphere/pkg/server/errors"
 )
 
 type operationHandler struct {

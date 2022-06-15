@@ -21,7 +21,7 @@ import (
 	k8sruntime "k8s.io/apimachinery/pkg/runtime"
 	urlruntime "k8s.io/apimachinery/pkg/util/runtime"
 
-	storagev1alpha1 "kubesphere.io/kubesphere/pkg/apis/storage/v1alpha1"
+	storagev1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/storage/v1alpha1"
 )
 
 func Install(scheme *k8sruntime.Scheme) {

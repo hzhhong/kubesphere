@@ -23,10 +23,10 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/informers"
 
-	"kubesphere.io/kubesphere/pkg/constants"
-	"kubesphere.io/kubesphere/pkg/models/resources/v1alpha2"
-	"kubesphere.io/kubesphere/pkg/server/params"
-	"kubesphere.io/kubesphere/pkg/utils/k8sutil"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/server/params"
+	"github.com/hzhhong/kubesphere/pkg/utils/k8sutil"
 )
 
 type clusterRoleSearcher struct {

@@ -19,7 +19,7 @@
 package identityprovider
 
 import (
-	"kubesphere.io/kubesphere/pkg/apiserver/authentication/oauth"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authentication/oauth"
 )
 
 type GenericProvider interface {

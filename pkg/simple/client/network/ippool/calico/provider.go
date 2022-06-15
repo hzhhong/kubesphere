@@ -44,15 +44,15 @@ import (
 	"k8s.io/klog"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	"kubesphere.io/kubesphere/pkg/apis/network/calicov3"
-	"kubesphere.io/kubesphere/pkg/apis/network/v1alpha1"
-	kubesphereclient "kubesphere.io/kubesphere/pkg/client/clientset/versioned"
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned/scheme"
-	"kubesphere.io/kubesphere/pkg/constants"
-	"kubesphere.io/kubesphere/pkg/simple/client/k8s"
-	calicoset "kubesphere.io/kubesphere/pkg/simple/client/network/ippool/calico/client/clientset/versioned"
-	calicoInformer "kubesphere.io/kubesphere/pkg/simple/client/network/ippool/calico/client/informers/externalversions"
-	blockInformer "kubesphere.io/kubesphere/pkg/simple/client/network/ippool/calico/client/informers/externalversions/network/calicov3"
+	"github.com/hzhhong/kubesphere/pkg/apis/network/calicov3"
+	"github.com/hzhhong/kubesphere/pkg/apis/network/v1alpha1"
+	kubesphereclient "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
+	"github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/scheme"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/k8s"
+	calicoset "github.com/hzhhong/kubesphere/pkg/simple/client/network/ippool/calico/client/clientset/versioned"
+	calicoInformer "github.com/hzhhong/kubesphere/pkg/simple/client/network/ippool/calico/client/informers/externalversions"
+	blockInformer "github.com/hzhhong/kubesphere/pkg/simple/client/network/ippool/calico/client/informers/externalversions/network/calicov3"
 )
 
 const (

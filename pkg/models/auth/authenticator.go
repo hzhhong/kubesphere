@@ -24,20 +24,20 @@ import (
 
 	"golang.org/x/crypto/bcrypt"
 
-	"kubesphere.io/kubesphere/pkg/apiserver/authentication/identityprovider"
-	informers "kubesphere.io/kubesphere/pkg/client/informers/externalversions"
-	"kubesphere.io/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authentication/identityprovider"
+	informers "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
+	"github.com/hzhhong/kubesphere/pkg/constants"
 
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/labels"
 	authuser "k8s.io/apiserver/pkg/authentication/user"
 	"k8s.io/klog"
 
-	iamv1alpha2 "kubesphere.io/kubesphere/pkg/apis/iam/v1alpha2"
-	"kubesphere.io/kubesphere/pkg/apiserver/authentication/oauth"
-	authoptions "kubesphere.io/kubesphere/pkg/apiserver/authentication/options"
-	kubesphere "kubesphere.io/kubesphere/pkg/client/clientset/versioned"
-	iamv1alpha2listers "kubesphere.io/kubesphere/pkg/client/listers/iam/v1alpha2"
+	iamv1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/iam/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authentication/oauth"
+	authoptions "github.com/hzhhong/kubesphere/pkg/apiserver/authentication/options"
+	kubesphere "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
+	iamv1alpha2listers "github.com/hzhhong/kubesphere/pkg/client/listers/iam/v1alpha2"
 )
 
 var (

@@ -19,9 +19,9 @@ package auditing
 import (
 	"strconv"
 
-	"kubesphere.io/kubesphere/pkg/api/auditing/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/simple/client/auditing"
-	"kubesphere.io/kubesphere/pkg/utils/stringutils"
+	"github.com/hzhhong/kubesphere/pkg/api/auditing/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/auditing"
+	"github.com/hzhhong/kubesphere/pkg/utils/stringutils"
 )
 
 type Interface interface {

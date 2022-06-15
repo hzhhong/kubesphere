@@ -19,8 +19,8 @@ package devops
 import (
 	"time"
 
-	"kubesphere.io/kubesphere/pkg/api/devops/v1alpha2"
-	"kubesphere.io/kubesphere/pkg/utils/idutils"
+	"github.com/hzhhong/kubesphere/pkg/api/devops/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/utils/idutils"
 )
 
 var DevOpsProjectColumns = GetColumnsFromStruct(&v1alpha2.DevOpsProject{})

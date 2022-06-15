@@ -38,15 +38,15 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3"
-	devopsv1alpha3 "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3"
-	tenantv1alpha1 "kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/apiserver/query"
-	kubesphere "kubesphere.io/kubesphere/pkg/client/clientset/versioned"
-	"kubesphere.io/kubesphere/pkg/client/informers/externalversions"
-	resourcesV1alpha3 "kubesphere.io/kubesphere/pkg/models/resources/v1alpha3"
-	"kubesphere.io/kubesphere/pkg/simple/client/devops"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3"
+	devopsv1alpha3 "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3"
+	tenantv1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/query"
+	kubesphere "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
+	"github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
+	resourcesV1alpha3 "github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha3"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/devops"
 )
 
 const (

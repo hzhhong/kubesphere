@@ -19,11 +19,11 @@ package loginrecord
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	iamv1alpha2 "kubesphere.io/kubesphere/pkg/apis/iam/v1alpha2"
-	"kubesphere.io/kubesphere/pkg/apiserver/query"
-	ksinformers "kubesphere.io/kubesphere/pkg/client/informers/externalversions"
-	"kubesphere.io/kubesphere/pkg/models/resources/v1alpha3"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	iamv1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/iam/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/query"
+	ksinformers "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
+	"github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha3"
 )
 
 const recordType = "type"

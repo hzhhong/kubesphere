@@ -23,9 +23,9 @@ import (
 	"k8s.io/klog/klogr"
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 
-	"kubesphere.io/kubesphere/pkg/apis"
-	helmappscheme "kubesphere.io/kubesphere/pkg/apis/application/v1alpha1"
-	typesv1beta1 "kubesphere.io/kubesphere/pkg/apis/types/v1beta1"
+	"github.com/hzhhong/kubesphere/pkg/apis"
+	helmappscheme "github.com/hzhhong/kubesphere/pkg/apis/application/v1alpha1"
+	typesv1beta1 "github.com/hzhhong/kubesphere/pkg/apis/types/v1beta1"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

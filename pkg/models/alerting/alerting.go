@@ -15,11 +15,11 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 	coreinformersv1 "k8s.io/client-go/informers/core/v1"
 
-	"kubesphere.io/kubesphere/pkg/api/alerting/v2alpha1"
-	"kubesphere.io/kubesphere/pkg/constants"
-	"kubesphere.io/kubesphere/pkg/informers"
-	"kubesphere.io/kubesphere/pkg/models/alerting/rules"
-	"kubesphere.io/kubesphere/pkg/simple/client/alerting"
+	"github.com/hzhhong/kubesphere/pkg/api/alerting/v2alpha1"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/informers"
+	"github.com/hzhhong/kubesphere/pkg/models/alerting/rules"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/alerting"
 )
 
 const (

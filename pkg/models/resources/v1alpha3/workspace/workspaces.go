@@ -19,11 +19,11 @@ package workspace
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	tenantv1alpha1 "kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/apiserver/query"
-	informers "kubesphere.io/kubesphere/pkg/client/informers/externalversions"
-	"kubesphere.io/kubesphere/pkg/models/resources/v1alpha3"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	tenantv1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/query"
+	informers "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
+	"github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha3"
 )
 
 type workspaceGetter struct {

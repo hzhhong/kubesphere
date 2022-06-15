@@ -21,9 +21,9 @@ import (
 
 	jsoniter "github.com/json-iterator/go"
 
-	"kubesphere.io/kubesphere/pkg/simple/client/auditing"
-	"kubesphere.io/kubesphere/pkg/simple/client/es"
-	"kubesphere.io/kubesphere/pkg/simple/client/es/query"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/auditing"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/es"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/es/query"
 )
 
 var json = jsoniter.ConfigCompatibleWithStandardLibrary

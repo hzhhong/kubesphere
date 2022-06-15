@@ -27,11 +27,11 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	fakek8s "k8s.io/client-go/kubernetes/fake"
 
-	fakeks "kubesphere.io/kubesphere/pkg/client/clientset/versioned/fake"
-	"kubesphere.io/kubesphere/pkg/informers"
-	"kubesphere.io/kubesphere/pkg/models"
-	"kubesphere.io/kubesphere/pkg/models/resources/v1alpha2"
-	"kubesphere.io/kubesphere/pkg/server/params"
+	fakeks "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/fake"
+	"github.com/hzhhong/kubesphere/pkg/informers"
+	"github.com/hzhhong/kubesphere/pkg/models"
+	"github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/server/params"
 )
 
 func TestConditions(t *testing.T) {

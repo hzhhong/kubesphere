@@ -30,7 +30,7 @@ import (
 	"sort"
 	"strings"
 
-	"kubesphere.io/kubesphere/pkg/apiserver/query"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/query"
 
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/s3"
@@ -41,12 +41,12 @@ import (
 	"k8s.io/klog"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"kubesphere.io/kubesphere/pkg/apis/application/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/constants"
-	"kubesphere.io/kubesphere/pkg/models"
-	"kubesphere.io/kubesphere/pkg/server/params"
-	"kubesphere.io/kubesphere/pkg/simple/client/openpitrix/helmrepoindex"
-	"kubesphere.io/kubesphere/pkg/utils/stringutils"
+	"github.com/hzhhong/kubesphere/pkg/apis/application/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/models"
+	"github.com/hzhhong/kubesphere/pkg/server/params"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/openpitrix/helmrepoindex"
+	"github.com/hzhhong/kubesphere/pkg/utils/stringutils"
 )
 
 func (c *applicationOperator) GetAppVersionPackage(appId, versionId string) (*GetAppVersionPackageResponse, error) {

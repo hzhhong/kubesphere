@@ -47,11 +47,11 @@ import (
 	"k8s.io/klog"
 	fedv1b1 "sigs.k8s.io/kubefed/pkg/apis/core/v1beta1"
 
-	clusterv1alpha1 "kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1"
-	clusterclient "kubesphere.io/kubesphere/pkg/client/clientset/versioned/typed/cluster/v1alpha1"
-	clusterinformer "kubesphere.io/kubesphere/pkg/client/informers/externalversions/cluster/v1alpha1"
-	clusterlister "kubesphere.io/kubesphere/pkg/client/listers/cluster/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/version"
+	clusterv1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1"
+	clusterclient "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/typed/cluster/v1alpha1"
+	clusterinformer "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/cluster/v1alpha1"
+	clusterlister "github.com/hzhhong/kubesphere/pkg/client/listers/cluster/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/version"
 )
 
 // Cluster controller only runs under multicluster mode. Cluster controller is following below steps,

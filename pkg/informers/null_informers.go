@@ -27,8 +27,8 @@ import (
 	"k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes/fake"
 
-	ksfake "kubesphere.io/kubesphere/pkg/client/clientset/versioned/fake"
-	ksinformers "kubesphere.io/kubesphere/pkg/client/informers/externalversions"
+	ksfake "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/fake"
+	ksinformers "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
 )
 
 type nullInformerFactory struct {

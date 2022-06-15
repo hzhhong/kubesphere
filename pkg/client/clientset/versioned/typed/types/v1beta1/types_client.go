@@ -20,8 +20,8 @@ package v1beta1
 
 import (
 	rest "k8s.io/client-go/rest"
-	v1beta1 "kubesphere.io/kubesphere/pkg/apis/types/v1beta1"
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned/scheme"
+	v1beta1 "github.com/hzhhong/kubesphere/pkg/apis/types/v1beta1"
+	"github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/scheme"
 )
 
 type TypesV1beta1Interface interface {

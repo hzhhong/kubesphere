@@ -24,15 +24,15 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3"
-	"kubesphere.io/kubesphere/pkg/apiserver/query"
-	kubesphere "kubesphere.io/kubesphere/pkg/client/clientset/versioned"
-	"kubesphere.io/kubesphere/pkg/client/informers/externalversions"
-	"kubesphere.io/kubesphere/pkg/models/devops"
-	servererr "kubesphere.io/kubesphere/pkg/server/errors"
-	"kubesphere.io/kubesphere/pkg/server/params"
-	devopsClient "kubesphere.io/kubesphere/pkg/simple/client/devops"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/query"
+	kubesphere "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
+	"github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
+	"github.com/hzhhong/kubesphere/pkg/models/devops"
+	servererr "github.com/hzhhong/kubesphere/pkg/server/errors"
+	"github.com/hzhhong/kubesphere/pkg/server/params"
+	devopsClient "github.com/hzhhong/kubesphere/pkg/simple/client/devops"
 )
 
 type devopsHandler struct {

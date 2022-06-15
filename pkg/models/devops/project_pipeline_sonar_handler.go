@@ -22,9 +22,9 @@ import (
 	"github.com/emicklei/go-restful"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/server/errors"
-	"kubesphere.io/kubesphere/pkg/simple/client/devops"
-	"kubesphere.io/kubesphere/pkg/simple/client/sonarqube"
+	"github.com/hzhhong/kubesphere/pkg/server/errors"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/devops"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/sonarqube"
 )
 
 type PipelineSonarGetter interface {

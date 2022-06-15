@@ -30,15 +30,15 @@ import (
 	"k8s.io/apiserver/pkg/authentication/user"
 	fakek8s "k8s.io/client-go/kubernetes/fake"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	iamv1alpha2 "kubesphere.io/kubesphere/pkg/apis/iam/v1alpha2"
-	tenantv1alpha1 "kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha1"
-	tenantv1alpha2 "kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha2"
-	"kubesphere.io/kubesphere/pkg/apiserver/authorization/rbac"
-	"kubesphere.io/kubesphere/pkg/apiserver/query"
-	fakeks "kubesphere.io/kubesphere/pkg/client/clientset/versioned/fake"
-	"kubesphere.io/kubesphere/pkg/informers"
-	"kubesphere.io/kubesphere/pkg/models/iam/am"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	iamv1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/iam/v1alpha2"
+	tenantv1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha1"
+	tenantv1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authorization/rbac"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/query"
+	fakeks "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/fake"
+	"github.com/hzhhong/kubesphere/pkg/informers"
+	"github.com/hzhhong/kubesphere/pkg/models/iam/am"
 )
 
 func TestTenantOperator_ListWorkspaces(t *testing.T) {

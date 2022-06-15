@@ -14,7 +14,7 @@ limitations under the License.
 package jenkins
 
 import (
-	"kubesphere.io/kubesphere/pkg/simple/client/devops"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/devops"
 )
 
 func NewDevopsClient(options *Options) (devops.Interface, error) {

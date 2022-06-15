@@ -23,7 +23,7 @@ import (
 	restfulspec "github.com/emicklei/go-restful-openapi"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"kubesphere.io/kubesphere/pkg/apiserver/runtime"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/runtime"
 )
 
 const groupName = "servicemesh.kubesphere.io"

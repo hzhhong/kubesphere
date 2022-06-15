@@ -25,8 +25,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apiserver/pkg/admission"
 
-	"kubesphere.io/kubesphere/kube/pkg/quota/v1"
-	"kubesphere.io/kubesphere/kube/pkg/quota/v1/generic"
+	"github.com/hzhhong/kubesphere/kube/pkg/quota/v1"
+	"github.com/hzhhong/kubesphere/kube/pkg/quota/v1/generic"
 )
 
 // the name used for object count quota

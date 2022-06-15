@@ -22,13 +22,13 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	iamv1alpha2 "kubesphere.io/kubesphere/pkg/apis/iam/v1alpha2"
-	authoptions "kubesphere.io/kubesphere/pkg/apiserver/authentication/options"
-	"kubesphere.io/kubesphere/pkg/apiserver/query"
-	kubesphere "kubesphere.io/kubesphere/pkg/client/clientset/versioned"
-	"kubesphere.io/kubesphere/pkg/models/auth"
-	resources "kubesphere.io/kubesphere/pkg/models/resources/v1alpha3"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	iamv1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/iam/v1alpha2"
+	authoptions "github.com/hzhhong/kubesphere/pkg/apiserver/authentication/options"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/query"
+	kubesphere "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
+	"github.com/hzhhong/kubesphere/pkg/models/auth"
+	resources "github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha3"
 )
 
 type IdentityManagementInterface interface {

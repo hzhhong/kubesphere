@@ -77,18 +77,18 @@ func GetOpenAPIDefinitions(ref common.ReferenceCallback) map[string]common.OpenA
 		"k8s.io/apimachinery/pkg/apis/meta/v1.TypeMeta":                                      schema_pkg_apis_meta_v1_TypeMeta(ref),
 		"k8s.io/apimachinery/pkg/apis/meta/v1.UpdateOptions":                                 schema_pkg_apis_meta_v1_UpdateOptions(ref),
 		"k8s.io/apimachinery/pkg/apis/meta/v1.WatchEvent":                                    schema_pkg_apis_meta_v1_WatchEvent(ref),
-		"kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.DestinationRuleSpecTemplate": schema_pkg_apis_servicemesh_v1alpha2_DestinationRuleSpecTemplate(ref),
-		"kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicy":               schema_pkg_apis_servicemesh_v1alpha2_ServicePolicy(ref),
-		"kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicyCondition":      schema_pkg_apis_servicemesh_v1alpha2_ServicePolicyCondition(ref),
-		"kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicyList":           schema_pkg_apis_servicemesh_v1alpha2_ServicePolicyList(ref),
-		"kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicySpec":           schema_pkg_apis_servicemesh_v1alpha2_ServicePolicySpec(ref),
-		"kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicyStatus":         schema_pkg_apis_servicemesh_v1alpha2_ServicePolicyStatus(ref),
-		"kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.Strategy":                    schema_pkg_apis_servicemesh_v1alpha2_Strategy(ref),
-		"kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.StrategyCondition":           schema_pkg_apis_servicemesh_v1alpha2_StrategyCondition(ref),
-		"kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.StrategyList":                schema_pkg_apis_servicemesh_v1alpha2_StrategyList(ref),
-		"kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.StrategySpec":                schema_pkg_apis_servicemesh_v1alpha2_StrategySpec(ref),
-		"kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.StrategyStatus":              schema_pkg_apis_servicemesh_v1alpha2_StrategyStatus(ref),
-		"kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.VirtualServiceTemplateSpec":  schema_pkg_apis_servicemesh_v1alpha2_VirtualServiceTemplateSpec(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.DestinationRuleSpecTemplate": schema_pkg_apis_servicemesh_v1alpha2_DestinationRuleSpecTemplate(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicy":               schema_pkg_apis_servicemesh_v1alpha2_ServicePolicy(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicyCondition":      schema_pkg_apis_servicemesh_v1alpha2_ServicePolicyCondition(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicyList":           schema_pkg_apis_servicemesh_v1alpha2_ServicePolicyList(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicySpec":           schema_pkg_apis_servicemesh_v1alpha2_ServicePolicySpec(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicyStatus":         schema_pkg_apis_servicemesh_v1alpha2_ServicePolicyStatus(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.Strategy":                    schema_pkg_apis_servicemesh_v1alpha2_Strategy(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.StrategyCondition":           schema_pkg_apis_servicemesh_v1alpha2_StrategyCondition(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.StrategyList":                schema_pkg_apis_servicemesh_v1alpha2_StrategyList(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.StrategySpec":                schema_pkg_apis_servicemesh_v1alpha2_StrategySpec(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.StrategyStatus":              schema_pkg_apis_servicemesh_v1alpha2_StrategyStatus(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.VirtualServiceTemplateSpec":  schema_pkg_apis_servicemesh_v1alpha2_VirtualServiceTemplateSpec(ref),
 	}
 }
 
@@ -2221,19 +2221,19 @@ func schema_pkg_apis_servicemesh_v1alpha2_ServicePolicy(ref common.ReferenceCall
 					},
 					"spec": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicySpec"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicySpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicyStatus"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicyStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta", "kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicySpec", "kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicyStatus"},
+			"k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta", "github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicySpec", "github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicyStatus"},
 	}
 }
 
@@ -2324,7 +2324,7 @@ func schema_pkg_apis_servicemesh_v1alpha2_ServicePolicyList(ref common.Reference
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicy"),
+										Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicy"),
 									},
 								},
 							},
@@ -2335,7 +2335,7 @@ func schema_pkg_apis_servicemesh_v1alpha2_ServicePolicyList(ref common.Reference
 			},
 		},
 		Dependencies: []string{
-			"k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta", "kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicy"},
+			"k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta", "github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicy"},
 	}
 }
 
@@ -2355,14 +2355,14 @@ func schema_pkg_apis_servicemesh_v1alpha2_ServicePolicySpec(ref common.Reference
 					"template": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Template used to create a destination rule",
-							Ref:         ref("kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.DestinationRuleSpecTemplate"),
+							Ref:         ref("github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.DestinationRuleSpecTemplate"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"k8s.io/apimachinery/pkg/apis/meta/v1.LabelSelector", "kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.DestinationRuleSpecTemplate"},
+			"k8s.io/apimachinery/pkg/apis/meta/v1.LabelSelector", "github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.DestinationRuleSpecTemplate"},
 	}
 }
 
@@ -2380,7 +2380,7 @@ func schema_pkg_apis_servicemesh_v1alpha2_ServicePolicyStatus(ref common.Referen
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicyCondition"),
+										Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicyCondition"),
 									},
 								},
 							},
@@ -2402,7 +2402,7 @@ func schema_pkg_apis_servicemesh_v1alpha2_ServicePolicyStatus(ref common.Referen
 			},
 		},
 		Dependencies: []string{
-			"k8s.io/apimachinery/pkg/apis/meta/v1.Time", "kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicyCondition"},
+			"k8s.io/apimachinery/pkg/apis/meta/v1.Time", "github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.ServicePolicyCondition"},
 	}
 }
 
@@ -2434,19 +2434,19 @@ func schema_pkg_apis_servicemesh_v1alpha2_Strategy(ref common.ReferenceCallback)
 					},
 					"spec": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.StrategySpec"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.StrategySpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.StrategyStatus"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.StrategyStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta", "kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.StrategySpec", "kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.StrategyStatus"},
+			"k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta", "github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.StrategySpec", "github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.StrategyStatus"},
 	}
 }
 
@@ -2537,7 +2537,7 @@ func schema_pkg_apis_servicemesh_v1alpha2_StrategyList(ref common.ReferenceCallb
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.Strategy"),
+										Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.Strategy"),
 									},
 								},
 							},
@@ -2548,7 +2548,7 @@ func schema_pkg_apis_servicemesh_v1alpha2_StrategyList(ref common.ReferenceCallb
 			},
 		},
 		Dependencies: []string{
-			"k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta", "kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.Strategy"},
+			"k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta", "github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.Strategy"},
 	}
 }
 
@@ -2589,7 +2589,7 @@ func schema_pkg_apis_servicemesh_v1alpha2_StrategySpec(ref common.ReferenceCallb
 					"template": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Template describes the virtual service that will be created.",
-							Ref:         ref("kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.VirtualServiceTemplateSpec"),
+							Ref:         ref("github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.VirtualServiceTemplateSpec"),
 						},
 					},
 					"strategyPolicy": {
@@ -2603,7 +2603,7 @@ func schema_pkg_apis_servicemesh_v1alpha2_StrategySpec(ref common.ReferenceCallb
 			},
 		},
 		Dependencies: []string{
-			"k8s.io/apimachinery/pkg/apis/meta/v1.LabelSelector", "kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.VirtualServiceTemplateSpec"},
+			"k8s.io/apimachinery/pkg/apis/meta/v1.LabelSelector", "github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.VirtualServiceTemplateSpec"},
 	}
 }
 
@@ -2621,7 +2621,7 @@ func schema_pkg_apis_servicemesh_v1alpha2_StrategyStatus(ref common.ReferenceCal
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.StrategyCondition"),
+										Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.StrategyCondition"),
 									},
 								},
 							},
@@ -2643,7 +2643,7 @@ func schema_pkg_apis_servicemesh_v1alpha2_StrategyStatus(ref common.ReferenceCal
 			},
 		},
 		Dependencies: []string{
-			"k8s.io/apimachinery/pkg/apis/meta/v1.Time", "kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2.StrategyCondition"},
+			"k8s.io/apimachinery/pkg/apis/meta/v1.Time", "github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2.StrategyCondition"},
 	}
 }
 

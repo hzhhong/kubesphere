@@ -19,7 +19,7 @@ package path
 import (
 	"testing"
 
-	"kubesphere.io/kubesphere/pkg/apiserver/authorization/authorizer"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authorization/authorizer"
 )
 
 func TestNewAuthorizer(t *testing.T) {

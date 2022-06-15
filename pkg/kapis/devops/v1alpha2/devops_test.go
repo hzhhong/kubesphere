@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3"
-	"kubesphere.io/kubesphere/pkg/models/devops"
+	"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3"
+	"github.com/hzhhong/kubesphere/pkg/models/devops"
 )
 
 func TestParseNameFilterFromQuery(t *testing.T) {

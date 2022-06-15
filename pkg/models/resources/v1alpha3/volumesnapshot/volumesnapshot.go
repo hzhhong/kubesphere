@@ -21,9 +21,9 @@ import (
 	"github.com/kubernetes-csi/external-snapshotter/client/v3/informers/externalversions"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	"kubesphere.io/kubesphere/pkg/apiserver/query"
-	"kubesphere.io/kubesphere/pkg/models/resources/v1alpha3"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/query"
+	"github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha3"
 )
 
 const (

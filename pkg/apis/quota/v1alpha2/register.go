@@ -19,7 +19,7 @@ limitations under the License.
 // Package v1alpha2 contains API Schema definitions for the quotas v1alpha2 API group
 // +k8s:openapi-gen=true
 // +k8s:deepcopy-gen=package,register
-// +k8s:conversion-gen=kubesphere.io/kubesphere/pkg/apis/quota
+// +k8s:conversion-gen=github.com/hzhhong/kubesphere/pkg/apis/quota
 // +k8s:defaulter-gen=TypeMeta
 // +groupName=quota.kubesphere.io
 package v1alpha2

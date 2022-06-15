@@ -24,9 +24,9 @@ import (
 	fakek8s "k8s.io/client-go/kubernetes/fake"
 	"k8s.io/klog"
 
-	fakeks "kubesphere.io/kubesphere/pkg/client/clientset/versioned/fake"
-	"kubesphere.io/kubesphere/pkg/informers"
-	"kubesphere.io/kubesphere/pkg/server/params"
+	fakeks "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/fake"
+	"github.com/hzhhong/kubesphere/pkg/informers"
+	"github.com/hzhhong/kubesphere/pkg/server/params"
 )
 
 func TestOpenPitrixCategory(t *testing.T) {

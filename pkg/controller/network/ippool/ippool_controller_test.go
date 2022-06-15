@@ -29,12 +29,12 @@ import (
 	k8sfake "k8s.io/client-go/kubernetes/fake"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/apis/network/v1alpha1"
-	ksfake "kubesphere.io/kubesphere/pkg/client/clientset/versioned/fake"
-	ksinformers "kubesphere.io/kubesphere/pkg/client/informers/externalversions"
-	"kubesphere.io/kubesphere/pkg/controller/network/utils"
-	"kubesphere.io/kubesphere/pkg/simple/client/network/ippool"
-	"kubesphere.io/kubesphere/pkg/simple/client/network/ippool/ipam"
+	"github.com/hzhhong/kubesphere/pkg/apis/network/v1alpha1"
+	ksfake "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/fake"
+	ksinformers "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
+	"github.com/hzhhong/kubesphere/pkg/controller/network/utils"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/network/ippool"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/network/ippool/ipam"
 )
 
 func TestIPPoolSuit(t *testing.T) {

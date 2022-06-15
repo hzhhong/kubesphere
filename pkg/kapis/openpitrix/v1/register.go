@@ -20,16 +20,16 @@ import (
 	restfulspec "github.com/emicklei/go-restful-openapi"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	"kubesphere.io/kubesphere/pkg/apiserver/runtime"
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned"
-	"kubesphere.io/kubesphere/pkg/constants"
-	"kubesphere.io/kubesphere/pkg/informers"
-	"kubesphere.io/kubesphere/pkg/models"
-	"kubesphere.io/kubesphere/pkg/models/openpitrix"
-	"kubesphere.io/kubesphere/pkg/server/errors"
-	"kubesphere.io/kubesphere/pkg/server/params"
-	openpitrixoptions "kubesphere.io/kubesphere/pkg/simple/client/openpitrix"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/runtime"
+	"github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/informers"
+	"github.com/hzhhong/kubesphere/pkg/models"
+	"github.com/hzhhong/kubesphere/pkg/models/openpitrix"
+	"github.com/hzhhong/kubesphere/pkg/server/errors"
+	"github.com/hzhhong/kubesphere/pkg/server/params"
+	openpitrixoptions "github.com/hzhhong/kubesphere/pkg/simple/client/openpitrix"
 )
 
 const (

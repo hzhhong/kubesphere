@@ -20,8 +20,8 @@ package v2beta1
 
 import (
 	rest "k8s.io/client-go/rest"
-	v2beta1 "kubesphere.io/kubesphere/pkg/apis/notification/v2beta1"
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned/scheme"
+	v2beta1 "github.com/hzhhong/kubesphere/pkg/apis/notification/v2beta1"
+	"github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/scheme"
 )
 
 type NotificationV2beta1Interface interface {

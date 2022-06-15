@@ -31,10 +31,10 @@ import (
 	"k8s.io/client-go/util/retry"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned"
-	"kubesphere.io/kubesphere/pkg/client/informers/externalversions"
-	"kubesphere.io/kubesphere/pkg/simple/client/s3"
+	"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
+	"github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/s3"
 )
 
 const (

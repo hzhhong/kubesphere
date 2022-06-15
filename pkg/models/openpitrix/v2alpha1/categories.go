@@ -16,12 +16,12 @@ package v2alpha1
 import (
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	"kubesphere.io/kubesphere/pkg/apis/application/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/apiserver/query"
-	"kubesphere.io/kubesphere/pkg/client/informers/externalversions"
-	resources "kubesphere.io/kubesphere/pkg/models/resources/v1alpha3"
-	"kubesphere.io/kubesphere/pkg/models/resources/v1alpha3/openpitrix/category"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	"github.com/hzhhong/kubesphere/pkg/apis/application/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/query"
+	"github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
+	resources "github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha3"
+	"github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha3/openpitrix/category"
 )
 
 type CategoryInterface interface {

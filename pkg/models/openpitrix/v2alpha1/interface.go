@@ -17,7 +17,7 @@ limitations under the License.
 package v2alpha1
 
 import (
-	"kubesphere.io/kubesphere/pkg/informers"
+	"github.com/hzhhong/kubesphere/pkg/informers"
 )
 
 type Interface interface {

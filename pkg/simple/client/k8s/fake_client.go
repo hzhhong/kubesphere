@@ -25,7 +25,7 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	kubesphere "kubesphere.io/kubesphere/pkg/client/clientset/versioned"
+	kubesphere "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
 )
 
 type FakeClient struct {

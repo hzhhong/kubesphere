@@ -26,10 +26,10 @@ import (
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"
 	cache "k8s.io/client-go/tools/cache"
-	devopsv1alpha3 "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3"
-	versioned "kubesphere.io/kubesphere/pkg/client/clientset/versioned"
-	internalinterfaces "kubesphere.io/kubesphere/pkg/client/informers/externalversions/internalinterfaces"
-	v1alpha3 "kubesphere.io/kubesphere/pkg/client/listers/devops/v1alpha3"
+	devopsv1alpha3 "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3"
+	versioned "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha3 "github.com/hzhhong/kubesphere/pkg/client/listers/devops/v1alpha3"
 )
 
 // DevOpsProjectInformer provides access to a shared informer and lister for

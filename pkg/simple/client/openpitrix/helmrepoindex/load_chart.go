@@ -26,8 +26,8 @@ import (
 
 	"helm.sh/helm/v3/pkg/getter"
 
-	"kubesphere.io/kubesphere/pkg/apis/application/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/simple/client/s3"
+	"github.com/hzhhong/kubesphere/pkg/apis/application/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/s3"
 )
 
 func parseS3Url(parse *url.URL) (region, endpoint, bucket, path string) {

@@ -35,10 +35,10 @@ import (
 	"k8s.io/klog"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	"kubesphere.io/kubesphere/pkg/apis/network/v1alpha1"
-	kubesphere "kubesphere.io/kubesphere/pkg/client/clientset/versioned"
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned/scheme"
-	"kubesphere.io/kubesphere/pkg/simple/client/network/utils"
+	"github.com/hzhhong/kubesphere/pkg/apis/network/v1alpha1"
+	kubesphere "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
+	"github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/scheme"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/network/utils"
 )
 
 const (

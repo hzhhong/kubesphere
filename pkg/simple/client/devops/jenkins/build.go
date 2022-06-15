@@ -24,7 +24,7 @@ import (
 
 	"github.com/emicklei/go-restful"
 
-	"kubesphere.io/kubesphere/pkg/simple/client/devops"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/devops"
 )
 
 const (

@@ -31,11 +31,11 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/tools/record"
 
-	iamv1alpha2 "kubesphere.io/kubesphere/pkg/apis/iam/v1alpha2"
-	"kubesphere.io/kubesphere/pkg/apiserver/authentication/options"
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned/fake"
-	ksinformers "kubesphere.io/kubesphere/pkg/client/informers/externalversions"
-	ldapclient "kubesphere.io/kubesphere/pkg/simple/client/ldap"
+	iamv1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/iam/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authentication/options"
+	"github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/fake"
+	ksinformers "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
+	ldapclient "github.com/hzhhong/kubesphere/pkg/simple/client/ldap"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

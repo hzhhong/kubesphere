@@ -21,7 +21,7 @@ import (
 	"strings"
 	"time"
 
-	"kubesphere.io/kubesphere/pkg/server/errors"
+	"github.com/hzhhong/kubesphere/pkg/server/errors"
 )
 
 var ErrNoSuchKey = errors.New("no such key")

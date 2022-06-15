@@ -22,13 +22,13 @@ import (
 	snapshotinformer "github.com/kubernetes-csi/external-snapshotter/client/v3/informers/externalversions"
 	"k8s.io/client-go/informers"
 
-	"kubesphere.io/kubesphere/pkg/models/resources/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha2"
 
 	"sort"
 	"strings"
 
-	"kubesphere.io/kubesphere/pkg/server/params"
-	"kubesphere.io/kubesphere/pkg/utils/sliceutil"
+	"github.com/hzhhong/kubesphere/pkg/server/params"
+	"github.com/hzhhong/kubesphere/pkg/utils/sliceutil"
 
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/labels"

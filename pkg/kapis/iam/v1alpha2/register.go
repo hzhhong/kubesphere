@@ -19,7 +19,7 @@ package v1alpha2
 import (
 	"net/http"
 
-	"kubesphere.io/kubesphere/pkg/apiserver/authorization/authorizer"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authorization/authorizer"
 
 	"github.com/emicklei/go-restful"
 	restfulspec "github.com/emicklei/go-restful-openapi"
@@ -27,14 +27,14 @@ import (
 	v1 "k8s.io/api/rbac/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	iamv1alpha2 "kubesphere.io/kubesphere/pkg/apis/iam/v1alpha2"
-	"kubesphere.io/kubesphere/pkg/apiserver/runtime"
-	"kubesphere.io/kubesphere/pkg/constants"
-	"kubesphere.io/kubesphere/pkg/models/iam/am"
-	"kubesphere.io/kubesphere/pkg/models/iam/group"
-	"kubesphere.io/kubesphere/pkg/models/iam/im"
-	"kubesphere.io/kubesphere/pkg/server/errors"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	iamv1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/iam/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/runtime"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/models/iam/am"
+	"github.com/hzhhong/kubesphere/pkg/models/iam/group"
+	"github.com/hzhhong/kubesphere/pkg/models/iam/im"
+	"github.com/hzhhong/kubesphere/pkg/server/errors"
 )
 
 const (

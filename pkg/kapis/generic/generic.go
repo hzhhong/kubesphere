@@ -27,8 +27,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/proxy"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	"kubesphere.io/kubesphere/pkg/apiserver/runtime"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/runtime"
 )
 
 // genericProxy is a simple proxy for external service.

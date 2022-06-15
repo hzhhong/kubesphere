@@ -21,7 +21,7 @@ package fake
 import (
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
-	v1alpha2 "kubesphere.io/kubesphere/pkg/client/clientset/versioned/typed/servicemesh/v1alpha2"
+	v1alpha2 "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/typed/servicemesh/v1alpha2"
 )
 
 type FakeServicemeshV1alpha2 struct {

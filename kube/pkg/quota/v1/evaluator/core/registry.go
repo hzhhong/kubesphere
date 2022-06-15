@@ -21,8 +21,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/clock"
 
-	quota "kubesphere.io/kubesphere/kube/pkg/quota/v1"
-	"kubesphere.io/kubesphere/kube/pkg/quota/v1/generic"
+	quota "github.com/hzhhong/kubesphere/kube/pkg/quota/v1"
+	"github.com/hzhhong/kubesphere/kube/pkg/quota/v1/generic"
 )
 
 // legacyObjectCountAliases are what we used to do simple object counting quota with mapped to alias

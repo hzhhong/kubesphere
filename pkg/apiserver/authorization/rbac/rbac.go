@@ -26,11 +26,11 @@ import (
 	"github.com/open-policy-agent/opa/rego"
 	"k8s.io/apiserver/pkg/authentication/serviceaccount"
 
-	iamv1alpha2 "kubesphere.io/kubesphere/pkg/apis/iam/v1alpha2"
-	"kubesphere.io/kubesphere/pkg/apiserver/authorization/authorizer"
-	"kubesphere.io/kubesphere/pkg/apiserver/request"
-	"kubesphere.io/kubesphere/pkg/models/iam/am"
-	"kubesphere.io/kubesphere/pkg/utils/sliceutil"
+	iamv1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/iam/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authorization/authorizer"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/request"
+	"github.com/hzhhong/kubesphere/pkg/models/iam/am"
+	"github.com/hzhhong/kubesphere/pkg/utils/sliceutil"
 
 	"k8s.io/klog"
 

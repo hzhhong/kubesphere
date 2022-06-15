@@ -19,9 +19,9 @@ limitations under the License.
 package tenant
 
 import (
-	internalinterfaces "kubesphere.io/kubesphere/pkg/client/informers/externalversions/internalinterfaces"
-	v1alpha1 "kubesphere.io/kubesphere/pkg/client/informers/externalversions/tenant/v1alpha1"
-	v1alpha2 "kubesphere.io/kubesphere/pkg/client/informers/externalversions/tenant/v1alpha2"
+	internalinterfaces "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/tenant/v1alpha1"
+	v1alpha2 "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/tenant/v1alpha2"
 )
 
 // Interface provides access to each of this group's versions.

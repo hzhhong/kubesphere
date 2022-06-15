@@ -77,10 +77,10 @@ func GetOpenAPIDefinitions(ref common.ReferenceCallback) map[string]common.OpenA
 		"k8s.io/apimachinery/pkg/apis/meta/v1.TypeMeta":                     schema_pkg_apis_meta_v1_TypeMeta(ref),
 		"k8s.io/apimachinery/pkg/apis/meta/v1.UpdateOptions":                schema_pkg_apis_meta_v1_UpdateOptions(ref),
 		"k8s.io/apimachinery/pkg/apis/meta/v1.WatchEvent":                   schema_pkg_apis_meta_v1_WatchEvent(ref),
-		"kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha1.Workspace":       schema_pkg_apis_tenant_v1alpha1_Workspace(ref),
-		"kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha1.WorkspaceList":   schema_pkg_apis_tenant_v1alpha1_WorkspaceList(ref),
-		"kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha1.WorkspaceSpec":   schema_pkg_apis_tenant_v1alpha1_WorkspaceSpec(ref),
-		"kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha1.WorkspaceStatus": schema_pkg_apis_tenant_v1alpha1_WorkspaceStatus(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha1.Workspace":       schema_pkg_apis_tenant_v1alpha1_Workspace(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha1.WorkspaceList":   schema_pkg_apis_tenant_v1alpha1_WorkspaceList(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha1.WorkspaceSpec":   schema_pkg_apis_tenant_v1alpha1_WorkspaceSpec(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha1.WorkspaceStatus": schema_pkg_apis_tenant_v1alpha1_WorkspaceStatus(ref),
 	}
 }
 
@@ -2187,19 +2187,19 @@ func schema_pkg_apis_tenant_v1alpha1_Workspace(ref common.ReferenceCallback) com
 					},
 					"spec": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha1.WorkspaceSpec"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha1.WorkspaceSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha1.WorkspaceStatus"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha1.WorkspaceStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta", "kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha1.WorkspaceSpec", "kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha1.WorkspaceStatus"},
+			"k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta", "github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha1.WorkspaceSpec", "github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha1.WorkspaceStatus"},
 	}
 }
 
@@ -2235,7 +2235,7 @@ func schema_pkg_apis_tenant_v1alpha1_WorkspaceList(ref common.ReferenceCallback)
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha1.Workspace"),
+										Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha1.Workspace"),
 									},
 								},
 							},
@@ -2246,7 +2246,7 @@ func schema_pkg_apis_tenant_v1alpha1_WorkspaceList(ref common.ReferenceCallback)
 			},
 		},
 		Dependencies: []string{
-			"k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta", "kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha1.Workspace"},
+			"k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta", "github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha1.Workspace"},
 	}
 }
 

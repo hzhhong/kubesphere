@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	modelsdevops "kubesphere.io/kubesphere/pkg/models/devops"
+	modelsdevops "github.com/hzhhong/kubesphere/pkg/models/devops"
 
 	v1 "k8s.io/api/core/v1"
 
-	"kubesphere.io/kubesphere/pkg/constants"
-	fakeDevOps "kubesphere.io/kubesphere/pkg/simple/client/devops/fake"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	fakeDevOps "github.com/hzhhong/kubesphere/pkg/simple/client/devops/fake"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
@@ -38,7 +38,7 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/tools/record"
 
-	devops "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3"
+	devops "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3"
 )
 
 var (

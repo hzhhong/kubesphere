@@ -23,18 +23,18 @@ import (
 	"regexp"
 	"strings"
 
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned"
-	"kubesphere.io/kubesphere/pkg/models/openpitrix"
+	"github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
+	"github.com/hzhhong/kubesphere/pkg/models/openpitrix"
 
 	"github.com/emicklei/go-restful"
 	"k8s.io/client-go/kubernetes"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	"kubesphere.io/kubesphere/pkg/informers"
-	model "kubesphere.io/kubesphere/pkg/models/monitoring"
-	resourcev1alpha3 "kubesphere.io/kubesphere/pkg/models/resources/v1alpha3/resource"
-	meteringclient "kubesphere.io/kubesphere/pkg/simple/client/metering"
-	"kubesphere.io/kubesphere/pkg/simple/client/monitoring"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	"github.com/hzhhong/kubesphere/pkg/informers"
+	model "github.com/hzhhong/kubesphere/pkg/models/monitoring"
+	resourcev1alpha3 "github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha3/resource"
+	meteringclient "github.com/hzhhong/kubesphere/pkg/simple/client/metering"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/monitoring"
 )
 
 type handler struct {

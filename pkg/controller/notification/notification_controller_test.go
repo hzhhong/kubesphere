@@ -29,10 +29,10 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/cache"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/apis/notification/v2beta1"
-	"kubesphere.io/kubesphere/pkg/apis/types/v1beta1"
-	"kubesphere.io/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/apis/notification/v2beta1"
+	"github.com/hzhhong/kubesphere/pkg/apis/types/v1beta1"
+	"github.com/hzhhong/kubesphere/pkg/constants"
 )
 
 var (

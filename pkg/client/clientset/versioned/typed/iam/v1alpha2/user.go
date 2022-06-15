@@ -26,8 +26,8 @@ import (
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
 	rest "k8s.io/client-go/rest"
-	v1alpha2 "kubesphere.io/kubesphere/pkg/apis/iam/v1alpha2"
-	scheme "kubesphere.io/kubesphere/pkg/client/clientset/versioned/scheme"
+	v1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/iam/v1alpha2"
+	scheme "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/scheme"
 )
 
 // UsersGetter has a method to return a UserInterface.

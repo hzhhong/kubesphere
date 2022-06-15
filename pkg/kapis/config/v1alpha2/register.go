@@ -20,8 +20,8 @@ import (
 	"github.com/emicklei/go-restful"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	kubesphereconfig "kubesphere.io/kubesphere/pkg/apiserver/config"
-	"kubesphere.io/kubesphere/pkg/apiserver/runtime"
+	kubesphereconfig "github.com/hzhhong/kubesphere/pkg/apiserver/config"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/runtime"
 )
 
 const (

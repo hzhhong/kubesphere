@@ -25,7 +25,7 @@ import (
 
 	utilwait "k8s.io/apimachinery/pkg/util/wait"
 
-	"kubesphere.io/kubesphere/pkg/controller/utils/controller"
+	"github.com/hzhhong/kubesphere/pkg/controller/utils/controller"
 
 	"golang.org/x/crypto/bcrypt"
 	corev1 "k8s.io/api/core/v1"
@@ -46,18 +46,18 @@ import (
 	"k8s.io/klog"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	iamv1alpha2 "kubesphere.io/kubesphere/pkg/apis/iam/v1alpha2"
-	authoptions "kubesphere.io/kubesphere/pkg/apiserver/authentication/options"
-	kubesphere "kubesphere.io/kubesphere/pkg/client/clientset/versioned"
-	kubespherescheme "kubesphere.io/kubesphere/pkg/client/clientset/versioned/scheme"
-	iamv1alpha2informers "kubesphere.io/kubesphere/pkg/client/informers/externalversions/iam/v1alpha2"
-	iamv1alpha2listers "kubesphere.io/kubesphere/pkg/client/listers/iam/v1alpha2"
-	"kubesphere.io/kubesphere/pkg/constants"
-	modelsdevops "kubesphere.io/kubesphere/pkg/models/devops"
-	"kubesphere.io/kubesphere/pkg/models/kubeconfig"
-	"kubesphere.io/kubesphere/pkg/simple/client/devops"
-	ldapclient "kubesphere.io/kubesphere/pkg/simple/client/ldap"
-	"kubesphere.io/kubesphere/pkg/utils/sliceutil"
+	iamv1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/iam/v1alpha2"
+	authoptions "github.com/hzhhong/kubesphere/pkg/apiserver/authentication/options"
+	kubesphere "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
+	kubespherescheme "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/scheme"
+	iamv1alpha2informers "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/iam/v1alpha2"
+	iamv1alpha2listers "github.com/hzhhong/kubesphere/pkg/client/listers/iam/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	modelsdevops "github.com/hzhhong/kubesphere/pkg/models/devops"
+	"github.com/hzhhong/kubesphere/pkg/models/kubeconfig"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/devops"
+	ldapclient "github.com/hzhhong/kubesphere/pkg/simple/client/ldap"
+	"github.com/hzhhong/kubesphere/pkg/utils/sliceutil"
 )
 
 const (

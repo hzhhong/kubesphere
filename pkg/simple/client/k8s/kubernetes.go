@@ -28,7 +28,7 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
 
-	kubesphere "kubesphere.io/kubesphere/pkg/client/clientset/versioned"
+	kubesphere "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
 )
 
 type Client interface {

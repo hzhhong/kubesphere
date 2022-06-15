@@ -77,7 +77,7 @@ func TestStrategyRead(t *testing.T) {
 	//g := gomega.NewGomegaWithT(t)
 
 	var str []byte
-	file, err := ioutil.ReadFile("/Users/zry/go/src/kubesphere.io/kubesphere/config/samples/servicemesh_v1alpha2_strategy.yaml")
+	file, err := ioutil.ReadFile("/Users/zry/go/src/github.com/hzhhong/kubesphere/config/samples/servicemesh_v1alpha2_strategy.yaml")
 	if err == nil {
 		obj, _, _ := scheme.Codecs.UniversalDeserializer().Decode(file, nil, &Strategy{})
 		switch obj.(type) {

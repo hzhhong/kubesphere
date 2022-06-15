@@ -19,7 +19,7 @@ limitations under the License.
 // Package v1alpha3 contains API Schema definitions for the devops v1alpha3 API group
 // +k8s:openapi-gen=true
 // +k8s:deepcopy-gen=package,register
-// +k8s:conversion-gen=kubesphere.io/kubesphere/pkg/apis/devops
+// +k8s:conversion-gen=github.com/hzhhong/kubesphere/pkg/apis/devops
 // +k8s:defaulter-gen=TypeMeta
 // +groupName=devops.kubesphere.io
 package v1alpha3

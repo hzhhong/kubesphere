@@ -26,8 +26,8 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"kubesphere.io/kubesphere/pkg/apiserver/authentication/identityprovider"
-	"kubesphere.io/kubesphere/pkg/apiserver/authentication/oauth"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authentication/identityprovider"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authentication/oauth"
 )
 
 func init() {

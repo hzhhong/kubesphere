@@ -40,19 +40,19 @@ import (
 	"k8s.io/klog"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	devopsv1alpha3 "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3"
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned/scheme"
-	tenantv1alpha1informers "kubesphere.io/kubesphere/pkg/client/informers/externalversions/tenant/v1alpha1"
-	tenantv1alpha1listers "kubesphere.io/kubesphere/pkg/client/listers/tenant/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/constants"
-	modelsdevops "kubesphere.io/kubesphere/pkg/models/devops"
-	devopsClient "kubesphere.io/kubesphere/pkg/simple/client/devops"
-	"kubesphere.io/kubesphere/pkg/utils/k8sutil"
-	"kubesphere.io/kubesphere/pkg/utils/sliceutil"
+	devopsv1alpha3 "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3"
+	"github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/scheme"
+	tenantv1alpha1informers "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/tenant/v1alpha1"
+	tenantv1alpha1listers "github.com/hzhhong/kubesphere/pkg/client/listers/tenant/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	modelsdevops "github.com/hzhhong/kubesphere/pkg/models/devops"
+	devopsClient "github.com/hzhhong/kubesphere/pkg/simple/client/devops"
+	"github.com/hzhhong/kubesphere/pkg/utils/k8sutil"
+	"github.com/hzhhong/kubesphere/pkg/utils/sliceutil"
 
-	kubesphereclient "kubesphere.io/kubesphere/pkg/client/clientset/versioned"
-	devopsinformers "kubesphere.io/kubesphere/pkg/client/informers/externalversions/devops/v1alpha3"
-	devopslisters "kubesphere.io/kubesphere/pkg/client/listers/devops/v1alpha3"
+	kubesphereclient "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
+	devopsinformers "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/devops/v1alpha3"
+	devopslisters "github.com/hzhhong/kubesphere/pkg/client/listers/devops/v1alpha3"
 )
 
 /**

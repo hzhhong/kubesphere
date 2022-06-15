@@ -17,7 +17,7 @@ limitations under the License.
 package apis
 
 import (
-	typesv1beta1 "kubesphere.io/kubesphere/pkg/apis/types/v1beta1"
+	typesv1beta1 "github.com/hzhhong/kubesphere/pkg/apis/types/v1beta1"
 )
 
 func init() {

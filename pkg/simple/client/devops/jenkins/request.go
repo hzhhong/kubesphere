@@ -31,8 +31,8 @@ import (
 
 	"github.com/dgrijalva/jwt-go"
 
-	authtoken "kubesphere.io/kubesphere/pkg/apiserver/authentication/token"
-	"kubesphere.io/kubesphere/pkg/simple/client/devops"
+	authtoken "github.com/hzhhong/kubesphere/pkg/apiserver/authentication/token"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/devops"
 )
 
 // Request Methods

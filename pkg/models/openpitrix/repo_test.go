@@ -24,12 +24,12 @@ import (
 	fakek8s "k8s.io/client-go/kubernetes/fake"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/apis/application/v1alpha1"
-	fakeks "kubesphere.io/kubesphere/pkg/client/clientset/versioned/fake"
-	"kubesphere.io/kubesphere/pkg/constants"
-	"kubesphere.io/kubesphere/pkg/informers"
-	"kubesphere.io/kubesphere/pkg/server/params"
-	"kubesphere.io/kubesphere/pkg/utils/idutils"
+	"github.com/hzhhong/kubesphere/pkg/apis/application/v1alpha1"
+	fakeks "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/fake"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/informers"
+	"github.com/hzhhong/kubesphere/pkg/server/params"
+	"github.com/hzhhong/kubesphere/pkg/utils/idutils"
 )
 
 func TestOpenPitrixRepo(t *testing.T) {

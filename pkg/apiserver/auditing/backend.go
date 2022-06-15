@@ -26,8 +26,8 @@ import (
 
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/apiserver/auditing/v1alpha1"
-	options "kubesphere.io/kubesphere/pkg/simple/client/auditing"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/auditing/v1alpha1"
+	options "github.com/hzhhong/kubesphere/pkg/simple/client/auditing"
 )
 
 const (

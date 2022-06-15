@@ -17,15 +17,15 @@ limitations under the License.
 package workspace
 
 import (
-	tenantv1alpha1 "kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/client/informers/externalversions"
-	"kubesphere.io/kubesphere/pkg/models/resources/v1alpha2"
+	tenantv1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
+	"github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha2"
 
 	"sort"
 
 	"k8s.io/apimachinery/pkg/labels"
 
-	"kubesphere.io/kubesphere/pkg/server/params"
+	"github.com/hzhhong/kubesphere/pkg/server/params"
 )
 
 type workspaceSearcher struct {

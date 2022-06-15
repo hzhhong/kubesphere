@@ -25,8 +25,8 @@ import (
 	"github.com/mitchellh/mapstructure"
 	gocas "gopkg.in/cas.v2"
 
-	"kubesphere.io/kubesphere/pkg/apiserver/authentication/identityprovider"
-	"kubesphere.io/kubesphere/pkg/apiserver/authentication/oauth"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authentication/identityprovider"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authentication/oauth"
 )
 
 func init() {

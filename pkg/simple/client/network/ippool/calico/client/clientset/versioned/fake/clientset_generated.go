@@ -25,9 +25,9 @@ import (
 	fakediscovery "k8s.io/client-go/discovery/fake"
 	"k8s.io/client-go/testing"
 
-	clientset "kubesphere.io/kubesphere/pkg/simple/client/network/ippool/calico/client/clientset/versioned"
-	crdcalicov3 "kubesphere.io/kubesphere/pkg/simple/client/network/ippool/calico/client/clientset/versioned/typed/network/calicov3"
-	fakecrdcalicov3 "kubesphere.io/kubesphere/pkg/simple/client/network/ippool/calico/client/clientset/versioned/typed/network/calicov3/fake"
+	clientset "github.com/hzhhong/kubesphere/pkg/simple/client/network/ippool/calico/client/clientset/versioned"
+	crdcalicov3 "github.com/hzhhong/kubesphere/pkg/simple/client/network/ippool/calico/client/clientset/versioned/typed/network/calicov3"
+	fakecrdcalicov3 "github.com/hzhhong/kubesphere/pkg/simple/client/network/ippool/calico/client/clientset/versioned/typed/network/calicov3/fake"
 )
 
 // NewSimpleClientset returns a clientset that will respond with the provided objects.

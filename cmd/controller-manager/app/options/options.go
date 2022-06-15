@@ -28,15 +28,15 @@ import (
 	cliflag "k8s.io/component-base/cli/flag"
 	"k8s.io/klog"
 
-	authoptions "kubesphere.io/kubesphere/pkg/apiserver/authentication/options"
-	"kubesphere.io/kubesphere/pkg/simple/client/devops/jenkins"
-	"kubesphere.io/kubesphere/pkg/simple/client/k8s"
-	ldapclient "kubesphere.io/kubesphere/pkg/simple/client/ldap"
-	"kubesphere.io/kubesphere/pkg/simple/client/multicluster"
-	"kubesphere.io/kubesphere/pkg/simple/client/network"
-	"kubesphere.io/kubesphere/pkg/simple/client/openpitrix"
-	"kubesphere.io/kubesphere/pkg/simple/client/s3"
-	"kubesphere.io/kubesphere/pkg/simple/client/servicemesh"
+	authoptions "github.com/hzhhong/kubesphere/pkg/apiserver/authentication/options"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/devops/jenkins"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/k8s"
+	ldapclient "github.com/hzhhong/kubesphere/pkg/simple/client/ldap"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/multicluster"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/network"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/openpitrix"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/s3"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/servicemesh"
 )
 
 type KubeSphereControllerManagerOptions struct {

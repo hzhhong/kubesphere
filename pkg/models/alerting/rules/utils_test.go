@@ -8,8 +8,8 @@ import (
 	"github.com/prometheus/prometheus/rules"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	"kubesphere.io/kubesphere/pkg/api/alerting/v2alpha1"
-	"kubesphere.io/kubesphere/pkg/simple/client/alerting"
+	"github.com/hzhhong/kubesphere/pkg/api/alerting/v2alpha1"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/alerting"
 )
 
 func TestGetAlertingRulesStatus(t *testing.T) {

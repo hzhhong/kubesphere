@@ -29,8 +29,8 @@ import (
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/apiserver/authentication/identityprovider"
-	"kubesphere.io/kubesphere/pkg/apiserver/authentication/oauth"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authentication/identityprovider"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authentication/oauth"
 )
 
 const (

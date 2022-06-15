@@ -28,7 +28,7 @@ import (
 	"github.com/prometheus/common/model"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/simple/client/monitoring"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/monitoring"
 )
 
 const MeteringDefaultTimeout = 20 * time.Second

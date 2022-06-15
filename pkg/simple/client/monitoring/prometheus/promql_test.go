@@ -21,8 +21,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"kubesphere.io/kubesphere/pkg/simple/client/monitoring"
-	"kubesphere.io/kubesphere/pkg/simple/client/monitoring/prometheus/testdata"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/monitoring"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/monitoring/prometheus/testdata"
 )
 
 func TestMakeExpr(t *testing.T) {

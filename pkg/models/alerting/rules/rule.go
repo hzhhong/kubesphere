@@ -3,7 +3,7 @@ package rules
 import (
 	promresourcesv1 "github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring/v1"
 
-	"kubesphere.io/kubesphere/pkg/api/alerting/v2alpha1"
+	"github.com/hzhhong/kubesphere/pkg/api/alerting/v2alpha1"
 )
 
 type ResourceRuleCollection struct {

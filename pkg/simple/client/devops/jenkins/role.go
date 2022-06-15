@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"strings"
 
-	"kubesphere.io/kubesphere/pkg/simple/client/devops"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/devops"
 )
 
 type GlobalRoleResponse struct {

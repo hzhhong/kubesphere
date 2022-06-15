@@ -24,7 +24,7 @@ import (
 	"k8s.io/client-go/informers"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/api"
+	"github.com/hzhhong/kubesphere/pkg/api"
 )
 
 const (

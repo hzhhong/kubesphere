@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # This is a modified version of Kubernetes
-KUBE_GO_PACKAGE=kubesphere.io/kubesphere
+KUBE_GO_PACKAGE=github.com/hzhhong/kubesphere
 
 # Ensure the go tool exists and is a viable version.
 kube::golang::verify_go_version() {

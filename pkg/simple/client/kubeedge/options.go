@@ -19,7 +19,7 @@ package kubeedge
 import (
 	"github.com/spf13/pflag"
 
-	"kubesphere.io/kubesphere/pkg/utils/reflectutils"
+	"github.com/hzhhong/kubesphere/pkg/utils/reflectutils"
 )
 
 type Options struct {

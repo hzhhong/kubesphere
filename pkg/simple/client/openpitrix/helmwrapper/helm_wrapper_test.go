@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"kubesphere.io/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/constants"
 )
 
 func TestHelmInstall(t *testing.T) {

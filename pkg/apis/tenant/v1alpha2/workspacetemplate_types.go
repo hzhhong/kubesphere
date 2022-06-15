@@ -19,7 +19,7 @@ package v1alpha2
 import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	typesv1alpha1 "kubesphere.io/kubesphere/pkg/apis/types/v1beta1"
+	typesv1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/types/v1beta1"
 )
 
 const (

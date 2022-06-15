@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"kubesphere.io/kubesphere/pkg/controller/utils/servicemesh"
+	"github.com/hzhhong/kubesphere/pkg/controller/utils/servicemesh"
 
 	"time"
 
@@ -40,7 +40,7 @@ import (
 	v1core "k8s.io/client-go/kubernetes/typed/core/v1"
 	log "k8s.io/klog"
 
-	servicemeshv1alpha2 "kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2"
+	servicemeshv1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2"
 
 	istioclientset "istio.io/client-go/pkg/clientset/versioned"
 	istioinformers "istio.io/client-go/pkg/informers/externalversions/networking/v1alpha3"
@@ -54,9 +54,9 @@ import (
 	"k8s.io/client-go/tools/record"
 	"k8s.io/client-go/util/workqueue"
 
-	servicemeshclient "kubesphere.io/kubesphere/pkg/client/clientset/versioned"
-	servicemeshinformers "kubesphere.io/kubesphere/pkg/client/informers/externalversions/servicemesh/v1alpha2"
-	servicemeshlisters "kubesphere.io/kubesphere/pkg/client/listers/servicemesh/v1alpha2"
+	servicemeshclient "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
+	servicemeshinformers "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/servicemesh/v1alpha2"
+	servicemeshlisters "github.com/hzhhong/kubesphere/pkg/client/listers/servicemesh/v1alpha2"
 )
 
 const (

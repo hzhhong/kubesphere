@@ -21,11 +21,11 @@ import (
 	promresourcesclient "github.com/prometheus-operator/prometheus-operator/pkg/client/versioned"
 	"k8s.io/klog"
 
-	ksapi "kubesphere.io/kubesphere/pkg/api"
-	"kubesphere.io/kubesphere/pkg/api/alerting/v2alpha1"
-	"kubesphere.io/kubesphere/pkg/informers"
-	alertingmodels "kubesphere.io/kubesphere/pkg/models/alerting"
-	"kubesphere.io/kubesphere/pkg/simple/client/alerting"
+	ksapi "github.com/hzhhong/kubesphere/pkg/api"
+	"github.com/hzhhong/kubesphere/pkg/api/alerting/v2alpha1"
+	"github.com/hzhhong/kubesphere/pkg/informers"
+	alertingmodels "github.com/hzhhong/kubesphere/pkg/models/alerting"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/alerting"
 )
 
 type handler struct {

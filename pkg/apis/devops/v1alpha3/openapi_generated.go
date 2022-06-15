@@ -80,28 +80,28 @@ func GetOpenAPIDefinitions(ref common.ReferenceCallback) map[string]common.OpenA
 		"k8s.io/apimachinery/pkg/runtime.RawExtension":                            schema_k8sio_apimachinery_pkg_runtime_RawExtension(ref),
 		"k8s.io/apimachinery/pkg/runtime.TypeMeta":                                schema_k8sio_apimachinery_pkg_runtime_TypeMeta(ref),
 		"k8s.io/apimachinery/pkg/runtime.Unknown":                                 schema_k8sio_apimachinery_pkg_runtime_Unknown(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.BitbucketServerSource": schema_pkg_apis_devops_v1alpha3_BitbucketServerSource(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.DevOpsProject":         schema_pkg_apis_devops_v1alpha3_DevOpsProject(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.DevOpsProjectList":     schema_pkg_apis_devops_v1alpha3_DevOpsProjectList(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.DevOpsProjectSpec":     schema_pkg_apis_devops_v1alpha3_DevOpsProjectSpec(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.DevOpsProjectStatus":   schema_pkg_apis_devops_v1alpha3_DevOpsProjectStatus(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.DiscarderProperty":     schema_pkg_apis_devops_v1alpha3_DiscarderProperty(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.DiscoverPRFromForks":   schema_pkg_apis_devops_v1alpha3_DiscoverPRFromForks(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.GitCloneOption":        schema_pkg_apis_devops_v1alpha3_GitCloneOption(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.GitSource":             schema_pkg_apis_devops_v1alpha3_GitSource(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.GithubSource":          schema_pkg_apis_devops_v1alpha3_GithubSource(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.MultiBranchJobTrigger": schema_pkg_apis_devops_v1alpha3_MultiBranchJobTrigger(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.MultiBranchPipeline":   schema_pkg_apis_devops_v1alpha3_MultiBranchPipeline(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.NoScmPipeline":         schema_pkg_apis_devops_v1alpha3_NoScmPipeline(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.Parameter":             schema_pkg_apis_devops_v1alpha3_Parameter(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.Pipeline":              schema_pkg_apis_devops_v1alpha3_Pipeline(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.PipelineList":          schema_pkg_apis_devops_v1alpha3_PipelineList(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.PipelineSpec":          schema_pkg_apis_devops_v1alpha3_PipelineSpec(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.PipelineStatus":        schema_pkg_apis_devops_v1alpha3_PipelineStatus(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.RemoteTrigger":         schema_pkg_apis_devops_v1alpha3_RemoteTrigger(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.SingleSvnSource":       schema_pkg_apis_devops_v1alpha3_SingleSvnSource(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.SvnSource":             schema_pkg_apis_devops_v1alpha3_SvnSource(ref),
-		"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.TimerTrigger":          schema_pkg_apis_devops_v1alpha3_TimerTrigger(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.BitbucketServerSource": schema_pkg_apis_devops_v1alpha3_BitbucketServerSource(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.DevOpsProject":         schema_pkg_apis_devops_v1alpha3_DevOpsProject(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.DevOpsProjectList":     schema_pkg_apis_devops_v1alpha3_DevOpsProjectList(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.DevOpsProjectSpec":     schema_pkg_apis_devops_v1alpha3_DevOpsProjectSpec(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.DevOpsProjectStatus":   schema_pkg_apis_devops_v1alpha3_DevOpsProjectStatus(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.DiscarderProperty":     schema_pkg_apis_devops_v1alpha3_DiscarderProperty(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.DiscoverPRFromForks":   schema_pkg_apis_devops_v1alpha3_DiscoverPRFromForks(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.GitCloneOption":        schema_pkg_apis_devops_v1alpha3_GitCloneOption(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.GitSource":             schema_pkg_apis_devops_v1alpha3_GitSource(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.GithubSource":          schema_pkg_apis_devops_v1alpha3_GithubSource(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.MultiBranchJobTrigger": schema_pkg_apis_devops_v1alpha3_MultiBranchJobTrigger(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.MultiBranchPipeline":   schema_pkg_apis_devops_v1alpha3_MultiBranchPipeline(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.NoScmPipeline":         schema_pkg_apis_devops_v1alpha3_NoScmPipeline(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.Parameter":             schema_pkg_apis_devops_v1alpha3_Parameter(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.Pipeline":              schema_pkg_apis_devops_v1alpha3_Pipeline(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.PipelineList":          schema_pkg_apis_devops_v1alpha3_PipelineList(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.PipelineSpec":          schema_pkg_apis_devops_v1alpha3_PipelineSpec(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.PipelineStatus":        schema_pkg_apis_devops_v1alpha3_PipelineStatus(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.RemoteTrigger":         schema_pkg_apis_devops_v1alpha3_RemoteTrigger(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.SingleSvnSource":       schema_pkg_apis_devops_v1alpha3_SingleSvnSource(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.SvnSource":             schema_pkg_apis_devops_v1alpha3_SvnSource(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.TimerTrigger":          schema_pkg_apis_devops_v1alpha3_TimerTrigger(ref),
 	}
 }
 
@@ -2313,12 +2313,12 @@ func schema_pkg_apis_devops_v1alpha3_BitbucketServerSource(ref common.ReferenceC
 					},
 					"discover_pr_from_forks": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.DiscoverPRFromForks"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.DiscoverPRFromForks"),
 						},
 					},
 					"git_clone_option": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.GitCloneOption"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.GitCloneOption"),
 						},
 					},
 					"regex_filter": {
@@ -2331,7 +2331,7 @@ func schema_pkg_apis_devops_v1alpha3_BitbucketServerSource(ref common.ReferenceC
 			},
 		},
 		Dependencies: []string{
-			"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.DiscoverPRFromForks", "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.GitCloneOption"},
+			"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.DiscoverPRFromForks", "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.GitCloneOption"},
 	}
 }
 
@@ -2363,19 +2363,19 @@ func schema_pkg_apis_devops_v1alpha3_DevOpsProject(ref common.ReferenceCallback)
 					},
 					"spec": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.DevOpsProjectSpec"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.DevOpsProjectSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.DevOpsProjectStatus"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.DevOpsProjectStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta", "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.DevOpsProjectSpec", "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.DevOpsProjectStatus"},
+			"k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta", "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.DevOpsProjectSpec", "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.DevOpsProjectStatus"},
 	}
 }
 
@@ -2411,7 +2411,7 @@ func schema_pkg_apis_devops_v1alpha3_DevOpsProjectList(ref common.ReferenceCallb
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.DevOpsProject"),
+										Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.DevOpsProject"),
 									},
 								},
 							},
@@ -2422,7 +2422,7 @@ func schema_pkg_apis_devops_v1alpha3_DevOpsProjectList(ref common.ReferenceCallb
 			},
 		},
 		Dependencies: []string{
-			"k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta", "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.DevOpsProject"},
+			"k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta", "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.DevOpsProject"},
 	}
 }
 
@@ -2567,7 +2567,7 @@ func schema_pkg_apis_devops_v1alpha3_GitSource(ref common.ReferenceCallback) com
 					},
 					"git_clone_option": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.GitCloneOption"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.GitCloneOption"),
 						},
 					},
 					"regex_filter": {
@@ -2580,7 +2580,7 @@ func schema_pkg_apis_devops_v1alpha3_GitSource(ref common.ReferenceCallback) com
 			},
 		},
 		Dependencies: []string{
-			"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.GitCloneOption"},
+			"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.GitCloneOption"},
 	}
 }
 
@@ -2634,12 +2634,12 @@ func schema_pkg_apis_devops_v1alpha3_GithubSource(ref common.ReferenceCallback) 
 					},
 					"discover_pr_from_forks": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.DiscoverPRFromForks"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.DiscoverPRFromForks"),
 						},
 					},
 					"git_clone_option": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.GitCloneOption"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.GitCloneOption"),
 						},
 					},
 					"regex_filter": {
@@ -2652,7 +2652,7 @@ func schema_pkg_apis_devops_v1alpha3_GithubSource(ref common.ReferenceCallback) 
 			},
 		},
 		Dependencies: []string{
-			"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.DiscoverPRFromForks", "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.GitCloneOption"},
+			"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.DiscoverPRFromForks", "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.GitCloneOption"},
 	}
 }
 
@@ -2700,12 +2700,12 @@ func schema_pkg_apis_devops_v1alpha3_MultiBranchPipeline(ref common.ReferenceCal
 					},
 					"discarder": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.DiscarderProperty"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.DiscarderProperty"),
 						},
 					},
 					"timer_trigger": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.TimerTrigger"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.TimerTrigger"),
 						},
 					},
 					"source_type": {
@@ -2716,27 +2716,27 @@ func schema_pkg_apis_devops_v1alpha3_MultiBranchPipeline(ref common.ReferenceCal
 					},
 					"git_source": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.GitSource"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.GitSource"),
 						},
 					},
 					"github_source": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.GithubSource"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.GithubSource"),
 						},
 					},
 					"svn_source": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.SvnSource"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.SvnSource"),
 						},
 					},
 					"single_svn_source": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.SingleSvnSource"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.SingleSvnSource"),
 						},
 					},
 					"bitbucket_server_source": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.BitbucketServerSource"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.BitbucketServerSource"),
 						},
 					},
 					"script_path": {
@@ -2747,7 +2747,7 @@ func schema_pkg_apis_devops_v1alpha3_MultiBranchPipeline(ref common.ReferenceCal
 					},
 					"multibranch_job_trigger": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.MultiBranchJobTrigger"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.MultiBranchJobTrigger"),
 						},
 					},
 				},
@@ -2755,7 +2755,7 @@ func schema_pkg_apis_devops_v1alpha3_MultiBranchPipeline(ref common.ReferenceCal
 			},
 		},
 		Dependencies: []string{
-			"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.BitbucketServerSource", "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.DiscarderProperty", "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.GitSource", "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.GithubSource", "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.MultiBranchJobTrigger", "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.SingleSvnSource", "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.SvnSource", "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.TimerTrigger"},
+			"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.BitbucketServerSource", "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.DiscarderProperty", "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.GitSource", "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.GithubSource", "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.MultiBranchJobTrigger", "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.SingleSvnSource", "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.SvnSource", "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.TimerTrigger"},
 	}
 }
 
@@ -2779,7 +2779,7 @@ func schema_pkg_apis_devops_v1alpha3_NoScmPipeline(ref common.ReferenceCallback)
 					},
 					"discarder": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.DiscarderProperty"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.DiscarderProperty"),
 						},
 					},
 					"parameters": {
@@ -2788,7 +2788,7 @@ func schema_pkg_apis_devops_v1alpha3_NoScmPipeline(ref common.ReferenceCallback)
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.Parameter"),
+										Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.Parameter"),
 									},
 								},
 							},
@@ -2802,12 +2802,12 @@ func schema_pkg_apis_devops_v1alpha3_NoScmPipeline(ref common.ReferenceCallback)
 					},
 					"timer_trigger": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.TimerTrigger"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.TimerTrigger"),
 						},
 					},
 					"remote_trigger": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.RemoteTrigger"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.RemoteTrigger"),
 						},
 					},
 					"jenkinsfile": {
@@ -2821,7 +2821,7 @@ func schema_pkg_apis_devops_v1alpha3_NoScmPipeline(ref common.ReferenceCallback)
 			},
 		},
 		Dependencies: []string{
-			"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.DiscarderProperty", "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.Parameter", "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.RemoteTrigger", "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.TimerTrigger"},
+			"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.DiscarderProperty", "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.Parameter", "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.RemoteTrigger", "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.TimerTrigger"},
 	}
 }
 
@@ -2890,19 +2890,19 @@ func schema_pkg_apis_devops_v1alpha3_Pipeline(ref common.ReferenceCallback) comm
 					},
 					"spec": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.PipelineSpec"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.PipelineSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.PipelineStatus"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.PipelineStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta", "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.PipelineSpec", "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.PipelineStatus"},
+			"k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta", "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.PipelineSpec", "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.PipelineStatus"},
 	}
 }
 
@@ -2938,7 +2938,7 @@ func schema_pkg_apis_devops_v1alpha3_PipelineList(ref common.ReferenceCallback) 
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.Pipeline"),
+										Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.Pipeline"),
 									},
 								},
 							},
@@ -2949,7 +2949,7 @@ func schema_pkg_apis_devops_v1alpha3_PipelineList(ref common.ReferenceCallback) 
 			},
 		},
 		Dependencies: []string{
-			"k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta", "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.Pipeline"},
+			"k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta", "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.Pipeline"},
 	}
 }
 
@@ -2969,12 +2969,12 @@ func schema_pkg_apis_devops_v1alpha3_PipelineSpec(ref common.ReferenceCallback) 
 					},
 					"pipeline": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.NoScmPipeline"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.NoScmPipeline"),
 						},
 					},
 					"multi_branch_pipeline": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.MultiBranchPipeline"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.MultiBranchPipeline"),
 						},
 					},
 				},
@@ -2982,7 +2982,7 @@ func schema_pkg_apis_devops_v1alpha3_PipelineSpec(ref common.ReferenceCallback) 
 			},
 		},
 		Dependencies: []string{
-			"kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.MultiBranchPipeline", "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3.NoScmPipeline"},
+			"github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.MultiBranchPipeline", "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3.NoScmPipeline"},
 	}
 }
 

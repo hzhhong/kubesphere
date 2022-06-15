@@ -17,9 +17,9 @@ limitations under the License.
 package ldap
 
 import (
-	"kubesphere.io/kubesphere/pkg/api"
-	iamv1alpha2 "kubesphere.io/kubesphere/pkg/apis/iam/v1alpha2"
-	"kubesphere.io/kubesphere/pkg/apiserver/query"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	iamv1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/iam/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/query"
 )
 
 // Interface defines CRUD behaviors of manipulating users

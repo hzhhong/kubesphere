@@ -23,7 +23,7 @@ import (
 	"code.cloudfoundry.org/bytefmt"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/utils/readerutils"
+	"github.com/hzhhong/kubesphere/pkg/utils/readerutils"
 )
 
 func GetMD5(reader io.ReadCloser) (string, error) {

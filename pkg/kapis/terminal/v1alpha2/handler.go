@@ -25,7 +25,7 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/models/terminal"
+	"github.com/hzhhong/kubesphere/pkg/models/terminal"
 )
 
 var upgrader = websocket.Upgrader{

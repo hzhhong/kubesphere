@@ -19,8 +19,8 @@ limitations under the License.
 package network
 
 import (
-	internalinterfaces "kubesphere.io/kubesphere/pkg/simple/client/network/ippool/calico/client/informers/externalversions/internalinterfaces"
-	calicov3 "kubesphere.io/kubesphere/pkg/simple/client/network/ippool/calico/client/informers/externalversions/network/calicov3"
+	internalinterfaces "github.com/hzhhong/kubesphere/pkg/simple/client/network/ippool/calico/client/informers/externalversions/internalinterfaces"
+	calicov3 "github.com/hzhhong/kubesphere/pkg/simple/client/network/ippool/calico/client/informers/externalversions/network/calicov3"
 )
 
 // Interface provides access to each of this group's versions.

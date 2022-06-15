@@ -28,14 +28,14 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	fakek8s "k8s.io/client-go/kubernetes/fake"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	"kubesphere.io/kubesphere/pkg/apiserver/query"
-	fakeks "kubesphere.io/kubesphere/pkg/client/clientset/versioned/fake"
-	"kubesphere.io/kubesphere/pkg/informers"
-	"kubesphere.io/kubesphere/pkg/models/components"
-	resourcev1alpha2 "kubesphere.io/kubesphere/pkg/models/resources/v1alpha2/resource"
-	"kubesphere.io/kubesphere/pkg/models/resources/v1alpha3/resource"
-	resourcev1alpha3 "kubesphere.io/kubesphere/pkg/models/resources/v1alpha3/resource"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/query"
+	fakeks "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/fake"
+	"github.com/hzhhong/kubesphere/pkg/informers"
+	"github.com/hzhhong/kubesphere/pkg/models/components"
+	resourcev1alpha2 "github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha2/resource"
+	"github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha3/resource"
+	resourcev1alpha3 "github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha3/resource"
 )
 
 func TestResourceV1alpha2Fallback(t *testing.T) {

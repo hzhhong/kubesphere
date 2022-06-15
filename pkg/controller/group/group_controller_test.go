@@ -34,12 +34,12 @@ import (
 	"k8s.io/client-go/tools/record"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	v1alpha2 "kubesphere.io/kubesphere/pkg/apis/iam/v1alpha2"
-	tenantv1alpha2 "kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha2"
-	fedv1beta1types "kubesphere.io/kubesphere/pkg/apis/types/v1beta1"
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned/fake"
-	ksinformers "kubesphere.io/kubesphere/pkg/client/informers/externalversions"
-	"kubesphere.io/kubesphere/pkg/constants"
+	v1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/iam/v1alpha2"
+	tenantv1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha2"
+	fedv1beta1types "github.com/hzhhong/kubesphere/pkg/apis/types/v1beta1"
+	"github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/fake"
+	ksinformers "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
+	"github.com/hzhhong/kubesphere/pkg/constants"
 )
 
 var (

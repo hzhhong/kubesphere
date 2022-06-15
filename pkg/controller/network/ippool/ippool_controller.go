@@ -41,16 +41,16 @@ import (
 	"k8s.io/klog"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	networkv1alpha1 "kubesphere.io/kubesphere/pkg/apis/network/v1alpha1"
-	tenantv1alpha1 "kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha1"
-	kubesphereclient "kubesphere.io/kubesphere/pkg/client/clientset/versioned"
-	ksinformers "kubesphere.io/kubesphere/pkg/client/informers/externalversions"
-	networkInformer "kubesphere.io/kubesphere/pkg/client/informers/externalversions/network/v1alpha1"
-	tenantv1alpha1informers "kubesphere.io/kubesphere/pkg/client/informers/externalversions/tenant/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/constants"
-	"kubesphere.io/kubesphere/pkg/controller/network/utils"
-	"kubesphere.io/kubesphere/pkg/controller/network/webhooks"
-	"kubesphere.io/kubesphere/pkg/simple/client/network/ippool"
+	networkv1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/network/v1alpha1"
+	tenantv1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha1"
+	kubesphereclient "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
+	ksinformers "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
+	networkInformer "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/network/v1alpha1"
+	tenantv1alpha1informers "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/tenant/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/controller/network/utils"
+	"github.com/hzhhong/kubesphere/pkg/controller/network/webhooks"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/network/ippool"
 )
 
 var (

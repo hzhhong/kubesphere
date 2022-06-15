@@ -20,7 +20,7 @@ import (
 
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/simple/client/monitoring"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/monitoring"
 )
 
 var promQLMeterTemplates = map[string]string{

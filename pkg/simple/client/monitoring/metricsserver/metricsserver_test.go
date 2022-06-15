@@ -20,7 +20,7 @@ import (
 	metricsV1beta1 "k8s.io/metrics/pkg/apis/metrics/v1beta1"
 	fakemetricsclient "k8s.io/metrics/pkg/client/clientset/versioned/fake"
 
-	"kubesphere.io/kubesphere/pkg/simple/client/monitoring"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/monitoring"
 )
 
 // mergeResourceLists will merge resoure lists. When two lists have the same resourece, the value from

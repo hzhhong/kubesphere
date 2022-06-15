@@ -19,8 +19,8 @@ limitations under the License.
 package quota
 
 import (
-	internalinterfaces "kubesphere.io/kubesphere/pkg/client/informers/externalversions/internalinterfaces"
-	v1alpha2 "kubesphere.io/kubesphere/pkg/client/informers/externalversions/quota/v1alpha2"
+	internalinterfaces "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha2 "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/quota/v1alpha2"
 )
 
 // Interface provides access to each of this group's versions.

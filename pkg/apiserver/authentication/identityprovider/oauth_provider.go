@@ -16,7 +16,7 @@ limitations under the License.
 package identityprovider
 
 import (
-	"kubesphere.io/kubesphere/pkg/apiserver/authentication/oauth"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authentication/oauth"
 )
 
 type OAuthProvider interface {

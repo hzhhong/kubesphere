@@ -27,7 +27,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	jsoniter "github.com/json-iterator/go"
 
-	"kubesphere.io/kubesphere/pkg/simple/client/es/query"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/es/query"
 )
 
 func TestNewClient(t *testing.T) {

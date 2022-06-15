@@ -24,7 +24,7 @@ import (
 	"github.com/sony/sonyflake"
 	"github.com/speps/go-hashids"
 
-	"kubesphere.io/kubesphere/pkg/utils/stringutils"
+	"github.com/hzhhong/kubesphere/pkg/utils/stringutils"
 )
 
 var sf *sonyflake.Sonyflake

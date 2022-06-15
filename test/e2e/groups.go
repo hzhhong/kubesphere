@@ -25,11 +25,11 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"kubesphere.io/client-go/client"
 
-	"kubesphere.io/kubesphere/pkg/apis/iam/v1alpha2"
-	"kubesphere.io/kubesphere/test/e2e/constant"
-	"kubesphere.io/kubesphere/test/e2e/framework"
-	"kubesphere.io/kubesphere/test/e2e/framework/iam"
-	"kubesphere.io/kubesphere/test/e2e/framework/resource"
+	"github.com/hzhhong/kubesphere/pkg/apis/iam/v1alpha2"
+	"github.com/hzhhong/kubesphere/test/e2e/constant"
+	"github.com/hzhhong/kubesphere/test/e2e/framework"
+	"github.com/hzhhong/kubesphere/test/e2e/framework/iam"
+	"github.com/hzhhong/kubesphere/test/e2e/framework/resource"
 
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 )

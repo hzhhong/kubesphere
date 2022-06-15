@@ -27,7 +27,7 @@ package union
 import (
 	"strings"
 
-	"kubesphere.io/kubesphere/pkg/apiserver/authorization/authorizer"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authorization/authorizer"
 
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 	"k8s.io/apiserver/pkg/authentication/user"

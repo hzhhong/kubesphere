@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"kubesphere.io/kubesphere/pkg/constants"
-	"kubesphere.io/kubesphere/pkg/models/metering"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/models/metering"
 
 	"github.com/pkg/errors"
 	appv1 "k8s.io/api/apps/v1"
@@ -19,17 +19,17 @@ import (
 	"k8s.io/apiserver/pkg/authentication/user"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	meteringv1alpha1 "kubesphere.io/kubesphere/pkg/api/metering/v1alpha1"
-	tenantv1alpha2 "kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha2"
-	"kubesphere.io/kubesphere/pkg/apiserver/authorization/authorizer"
-	"kubesphere.io/kubesphere/pkg/apiserver/query"
-	"kubesphere.io/kubesphere/pkg/apiserver/request"
-	monitoringmodel "kubesphere.io/kubesphere/pkg/models/monitoring"
-	"kubesphere.io/kubesphere/pkg/models/openpitrix"
-	"kubesphere.io/kubesphere/pkg/server/params"
-	meteringclient "kubesphere.io/kubesphere/pkg/simple/client/metering"
-	"kubesphere.io/kubesphere/pkg/simple/client/monitoring"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	meteringv1alpha1 "github.com/hzhhong/kubesphere/pkg/api/metering/v1alpha1"
+	tenantv1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authorization/authorizer"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/query"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/request"
+	monitoringmodel "github.com/hzhhong/kubesphere/pkg/models/monitoring"
+	"github.com/hzhhong/kubesphere/pkg/models/openpitrix"
+	"github.com/hzhhong/kubesphere/pkg/server/params"
+	meteringclient "github.com/hzhhong/kubesphere/pkg/simple/client/metering"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/monitoring"
 )
 
 type QueryOptions struct {

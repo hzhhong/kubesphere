@@ -35,9 +35,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 	"sigs.k8s.io/controller-runtime/pkg/source"
 
-	"kubesphere.io/kubesphere/pkg/apis/application/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/simple/client/openpitrix/helmrepoindex"
-	"kubesphere.io/kubesphere/pkg/utils/sliceutil"
+	"github.com/hzhhong/kubesphere/pkg/apis/application/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/openpitrix/helmrepoindex"
+	"github.com/hzhhong/kubesphere/pkg/utils/sliceutil"
 )
 
 const (

@@ -26,10 +26,10 @@ import (
 	"k8s.io/apiserver/pkg/authentication/user"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/apiserver/authentication/oauth"
-	authoptions "kubesphere.io/kubesphere/pkg/apiserver/authentication/options"
-	"kubesphere.io/kubesphere/pkg/apiserver/authentication/token"
-	"kubesphere.io/kubesphere/pkg/simple/client/cache"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authentication/oauth"
+	authoptions "github.com/hzhhong/kubesphere/pkg/apiserver/authentication/options"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authentication/token"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/cache"
 )
 
 type TokenManagementInterface interface {

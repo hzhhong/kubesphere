@@ -27,9 +27,9 @@ import (
 	"k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes"
 
-	"kubesphere.io/kubesphere/kube/pkg/quota/v1"
-	"kubesphere.io/kubesphere/kube/pkg/quota/v1/generic"
-	resourcequotaapi "kubesphere.io/kubesphere/kube/plugin/pkg/admission/resourcequota/apis/resourcequota"
+	"github.com/hzhhong/kubesphere/kube/pkg/quota/v1"
+	"github.com/hzhhong/kubesphere/kube/pkg/quota/v1/generic"
+	resourcequotaapi "github.com/hzhhong/kubesphere/kube/plugin/pkg/admission/resourcequota/apis/resourcequota"
 )
 
 // QuotaAdmission implements an admission controller that can enforce quota constraints

@@ -9,12 +9,12 @@ import (
 	"strconv"
 	"time"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	meteringv1alpha1 "kubesphere.io/kubesphere/pkg/api/metering/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/apiserver/request"
-	monitoringv1alpha3 "kubesphere.io/kubesphere/pkg/kapis/monitoring/v1alpha3"
-	"kubesphere.io/kubesphere/pkg/models/metering"
-	monitoringclient "kubesphere.io/kubesphere/pkg/simple/client/monitoring"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	meteringv1alpha1 "github.com/hzhhong/kubesphere/pkg/api/metering/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/request"
+	monitoringv1alpha3 "github.com/hzhhong/kubesphere/pkg/kapis/monitoring/v1alpha3"
+	"github.com/hzhhong/kubesphere/pkg/models/metering"
+	monitoringclient "github.com/hzhhong/kubesphere/pkg/simple/client/monitoring"
 )
 
 func (h *tenantHandler) QueryMetering(req *restful.Request, resp *restful.Response) {

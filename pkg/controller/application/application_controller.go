@@ -44,8 +44,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 	"sigs.k8s.io/controller-runtime/pkg/source"
 
-	servicemeshv1alpha2 "kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2"
-	"kubesphere.io/kubesphere/pkg/controller/utils/servicemesh"
+	servicemeshv1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/controller/utils/servicemesh"
 )
 
 // ApplicationReconciler reconciles a Application object

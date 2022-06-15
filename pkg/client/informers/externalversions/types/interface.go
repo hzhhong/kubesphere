@@ -19,8 +19,8 @@ limitations under the License.
 package types
 
 import (
-	internalinterfaces "kubesphere.io/kubesphere/pkg/client/informers/externalversions/internalinterfaces"
-	v1beta1 "kubesphere.io/kubesphere/pkg/client/informers/externalversions/types/v1beta1"
+	internalinterfaces "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/internalinterfaces"
+	v1beta1 "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/types/v1beta1"
 )
 
 // Interface provides access to each of this group's versions.

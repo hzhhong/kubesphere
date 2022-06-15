@@ -22,23 +22,23 @@ import (
 
 	authuser "k8s.io/apiserver/pkg/authentication/user"
 
-	"kubesphere.io/kubesphere/pkg/apiserver/request"
-	"kubesphere.io/kubesphere/pkg/models/auth"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/request"
+	"github.com/hzhhong/kubesphere/pkg/models/auth"
 
 	"github.com/emicklei/go-restful"
 	rbacv1 "k8s.io/api/rbac/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	iamv1alpha2 "kubesphere.io/kubesphere/pkg/apis/iam/v1alpha2"
-	"kubesphere.io/kubesphere/pkg/apiserver/authorization/authorizer"
-	"kubesphere.io/kubesphere/pkg/apiserver/query"
-	apirequest "kubesphere.io/kubesphere/pkg/apiserver/request"
-	"kubesphere.io/kubesphere/pkg/models/iam/am"
-	"kubesphere.io/kubesphere/pkg/models/iam/group"
-	"kubesphere.io/kubesphere/pkg/models/iam/im"
-	servererr "kubesphere.io/kubesphere/pkg/server/errors"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	iamv1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/iam/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authorization/authorizer"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/query"
+	apirequest "github.com/hzhhong/kubesphere/pkg/apiserver/request"
+	"github.com/hzhhong/kubesphere/pkg/models/iam/am"
+	"github.com/hzhhong/kubesphere/pkg/models/iam/group"
+	"github.com/hzhhong/kubesphere/pkg/models/iam/im"
+	servererr "github.com/hzhhong/kubesphere/pkg/server/errors"
 )
 
 type Member struct {

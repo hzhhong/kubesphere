@@ -28,9 +28,9 @@ import (
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 
-	versioned "kubesphere.io/kubesphere/pkg/simple/client/network/ippool/calico/client/clientset/versioned"
-	internalinterfaces "kubesphere.io/kubesphere/pkg/simple/client/network/ippool/calico/client/informers/externalversions/internalinterfaces"
-	network "kubesphere.io/kubesphere/pkg/simple/client/network/ippool/calico/client/informers/externalversions/network"
+	versioned "github.com/hzhhong/kubesphere/pkg/simple/client/network/ippool/calico/client/clientset/versioned"
+	internalinterfaces "github.com/hzhhong/kubesphere/pkg/simple/client/network/ippool/calico/client/informers/externalversions/internalinterfaces"
+	network "github.com/hzhhong/kubesphere/pkg/simple/client/network/ippool/calico/client/informers/externalversions/network"
 )
 
 // SharedInformerOption defines the functional option type for SharedInformerFactory.

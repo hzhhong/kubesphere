@@ -34,15 +34,15 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 
-	"kubesphere.io/kubesphere/pkg/apis/application/v1alpha1"
-	clusterv1alpha1 "kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/client/informers/externalversions"
-	"kubesphere.io/kubesphere/pkg/constants"
-	"kubesphere.io/kubesphere/pkg/simple/client/openpitrix/helmwrapper"
-	"kubesphere.io/kubesphere/pkg/simple/client/s3"
-	"kubesphere.io/kubesphere/pkg/utils/clusterclient"
-	"kubesphere.io/kubesphere/pkg/utils/sliceutil"
-	"kubesphere.io/kubesphere/pkg/utils/stringutils"
+	"github.com/hzhhong/kubesphere/pkg/apis/application/v1alpha1"
+	clusterv1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/openpitrix/helmwrapper"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/s3"
+	"github.com/hzhhong/kubesphere/pkg/utils/clusterclient"
+	"github.com/hzhhong/kubesphere/pkg/utils/sliceutil"
+	"github.com/hzhhong/kubesphere/pkg/utils/stringutils"
 )
 
 const (

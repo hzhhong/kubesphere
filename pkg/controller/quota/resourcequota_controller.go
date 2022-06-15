@@ -39,20 +39,20 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 	"sigs.k8s.io/controller-runtime/pkg/source"
 
-	evaluatorcore "kubesphere.io/kubesphere/kube/pkg/quota/v1/evaluator/core"
-	"kubesphere.io/kubesphere/kube/pkg/quota/v1/generic"
-	"kubesphere.io/kubesphere/kube/pkg/quota/v1/install"
-	quotav1alpha2 "kubesphere.io/kubesphere/pkg/apis/quota/v1alpha2"
-	tenantv1alpha1 "kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/constants"
-	"kubesphere.io/kubesphere/pkg/utils/sliceutil"
+	evaluatorcore "github.com/hzhhong/kubesphere/kube/pkg/quota/v1/evaluator/core"
+	"github.com/hzhhong/kubesphere/kube/pkg/quota/v1/generic"
+	"github.com/hzhhong/kubesphere/kube/pkg/quota/v1/install"
+	quotav1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/quota/v1alpha2"
+	tenantv1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/utils/sliceutil"
 
 	k8sinformers "k8s.io/client-go/informers"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
 	corev1 "k8s.io/api/core/v1"
 
-	quotav1 "kubesphere.io/kubesphere/kube/pkg/quota/v1"
+	quotav1 "github.com/hzhhong/kubesphere/kube/pkg/quota/v1"
 
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/controller"

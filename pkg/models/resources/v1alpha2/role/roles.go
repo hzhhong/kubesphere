@@ -19,15 +19,15 @@ package role
 import (
 	"k8s.io/client-go/informers"
 
-	"kubesphere.io/kubesphere/pkg/constants"
-	"kubesphere.io/kubesphere/pkg/models/resources/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha2"
 
 	"sort"
 
 	rbac "k8s.io/api/rbac/v1"
 	"k8s.io/apimachinery/pkg/labels"
 
-	"kubesphere.io/kubesphere/pkg/server/params"
+	"github.com/hzhhong/kubesphere/pkg/server/params"
 )
 
 type roleSearcher struct {

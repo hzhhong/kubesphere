@@ -21,7 +21,7 @@ package fake
 import (
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
-	v1alpha3 "kubesphere.io/kubesphere/pkg/client/clientset/versioned/typed/devops/v1alpha3"
+	v1alpha3 "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/typed/devops/v1alpha3"
 )
 
 type FakeDevopsV1alpha3 struct {

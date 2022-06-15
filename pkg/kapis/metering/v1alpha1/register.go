@@ -20,7 +20,7 @@ package v1alpha1
 import (
 	"net/http"
 
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned"
+	"github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
 
 	"github.com/emicklei/go-restful"
 	restfulspec "github.com/emicklei/go-restful-openapi"
@@ -28,14 +28,14 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"sigs.k8s.io/controller-runtime/pkg/cache"
 
-	"kubesphere.io/kubesphere/pkg/apiserver/runtime"
-	"kubesphere.io/kubesphere/pkg/constants"
-	"kubesphere.io/kubesphere/pkg/informers"
-	monitoringv1alpha3 "kubesphere.io/kubesphere/pkg/kapis/monitoring/v1alpha3"
-	model "kubesphere.io/kubesphere/pkg/models/monitoring"
-	resourcev1alpha3 "kubesphere.io/kubesphere/pkg/models/resources/v1alpha3/resource"
-	meteringclient "kubesphere.io/kubesphere/pkg/simple/client/metering"
-	"kubesphere.io/kubesphere/pkg/simple/client/monitoring"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/runtime"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/informers"
+	monitoringv1alpha3 "github.com/hzhhong/kubesphere/pkg/kapis/monitoring/v1alpha3"
+	model "github.com/hzhhong/kubesphere/pkg/models/monitoring"
+	resourcev1alpha3 "github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha3/resource"
+	meteringclient "github.com/hzhhong/kubesphere/pkg/simple/client/metering"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/monitoring"
 )
 
 const (

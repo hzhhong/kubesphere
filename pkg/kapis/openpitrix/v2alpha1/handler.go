@@ -18,12 +18,12 @@ import (
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	"kubesphere.io/kubesphere/pkg/apiserver/query"
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned"
-	"kubesphere.io/kubesphere/pkg/informers"
-	openpitrix "kubesphere.io/kubesphere/pkg/models/openpitrix/v2alpha1"
-	openpitrixoptions "kubesphere.io/kubesphere/pkg/simple/client/openpitrix"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/query"
+	"github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
+	"github.com/hzhhong/kubesphere/pkg/informers"
+	openpitrix "github.com/hzhhong/kubesphere/pkg/models/openpitrix/v2alpha1"
+	openpitrixoptions "github.com/hzhhong/kubesphere/pkg/simple/client/openpitrix"
 )
 
 type openpitrixHandler struct {

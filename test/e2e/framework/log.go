@@ -25,7 +25,7 @@ import (
 
 	"github.com/onsi/ginkgo"
 
-	"kubesphere.io/kubesphere/test/e2e/framework/ginkgowrapper"
+	"github.com/hzhhong/kubesphere/test/e2e/framework/ginkgowrapper"
 )
 
 func nowStamp() string {

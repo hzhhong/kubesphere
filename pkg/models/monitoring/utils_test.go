@@ -6,8 +6,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	meteringclient "kubesphere.io/kubesphere/pkg/simple/client/metering"
-	"kubesphere.io/kubesphere/pkg/simple/client/monitoring"
+	meteringclient "github.com/hzhhong/kubesphere/pkg/simple/client/metering"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/monitoring"
 )
 
 func TestGetMaxPointValue(t *testing.T) {

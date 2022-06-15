@@ -24,7 +24,7 @@ import (
 	"github.com/emicklei/go-restful"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/api"
+	"github.com/hzhhong/kubesphere/pkg/api"
 )
 
 // default jaeger query api endpoint address

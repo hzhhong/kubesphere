@@ -3,7 +3,7 @@ package workspace
 import (
 	compbasemetrics "k8s.io/component-base/metrics"
 
-	"kubesphere.io/kubesphere/pkg/utils/metrics"
+	"github.com/hzhhong/kubesphere/pkg/utils/metrics"
 )
 
 var (

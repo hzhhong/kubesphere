@@ -24,7 +24,7 @@ import (
 	"github.com/onsi/gomega"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/test/e2e/framework/ginkgowrapper"
+	"github.com/hzhhong/kubesphere/test/e2e/framework/ginkgowrapper"
 )
 
 // RunE2ETests checks configuration parameters (specified through flags) and then runs

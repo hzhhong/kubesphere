@@ -22,13 +22,13 @@ import (
 	"github.com/emicklei/go-restful"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	"kubesphere.io/kubesphere/pkg/apiserver/query"
-	"kubesphere.io/kubesphere/pkg/models/components"
-	"kubesphere.io/kubesphere/pkg/models/resources/v1alpha2"
-	resourcev1alpha2 "kubesphere.io/kubesphere/pkg/models/resources/v1alpha2/resource"
-	resourcev1alpha3 "kubesphere.io/kubesphere/pkg/models/resources/v1alpha3/resource"
-	"kubesphere.io/kubesphere/pkg/server/params"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/query"
+	"github.com/hzhhong/kubesphere/pkg/models/components"
+	"github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha2"
+	resourcev1alpha2 "github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha2/resource"
+	resourcev1alpha3 "github.com/hzhhong/kubesphere/pkg/models/resources/v1alpha3/resource"
+	"github.com/hzhhong/kubesphere/pkg/server/params"
 )
 
 type Handler struct {

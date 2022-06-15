@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"kubesphere.io/kubesphere/pkg/apiserver/query"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/query"
 
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -30,19 +30,19 @@ import (
 	"k8s.io/klog"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"kubesphere.io/kubesphere/pkg/apis/application/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned"
-	v1alpha13 "kubesphere.io/kubesphere/pkg/client/clientset/versioned/typed/application/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/client/informers/externalversions"
-	listers_v1alpha1 "kubesphere.io/kubesphere/pkg/client/listers/application/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/constants"
-	"kubesphere.io/kubesphere/pkg/models"
-	"kubesphere.io/kubesphere/pkg/server/params"
-	"kubesphere.io/kubesphere/pkg/simple/client/openpitrix/helmrepoindex"
-	"kubesphere.io/kubesphere/pkg/simple/client/s3"
-	"kubesphere.io/kubesphere/pkg/utils/idutils"
-	"kubesphere.io/kubesphere/pkg/utils/reposcache"
-	"kubesphere.io/kubesphere/pkg/utils/stringutils"
+	"github.com/hzhhong/kubesphere/pkg/apis/application/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
+	v1alpha13 "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/typed/application/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
+	listers_v1alpha1 "github.com/hzhhong/kubesphere/pkg/client/listers/application/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/models"
+	"github.com/hzhhong/kubesphere/pkg/server/params"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/openpitrix/helmrepoindex"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/s3"
+	"github.com/hzhhong/kubesphere/pkg/utils/idutils"
+	"github.com/hzhhong/kubesphere/pkg/utils/reposcache"
+	"github.com/hzhhong/kubesphere/pkg/utils/stringutils"
 )
 
 type ApplicationInterface interface {

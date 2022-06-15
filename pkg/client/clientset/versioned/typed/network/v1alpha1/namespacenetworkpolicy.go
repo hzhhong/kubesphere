@@ -26,8 +26,8 @@ import (
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
 	rest "k8s.io/client-go/rest"
-	v1alpha1 "kubesphere.io/kubesphere/pkg/apis/network/v1alpha1"
-	scheme "kubesphere.io/kubesphere/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/network/v1alpha1"
+	scheme "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/scheme"
 )
 
 // NamespaceNetworkPoliciesGetter has a method to return a NamespaceNetworkPolicyInterface.

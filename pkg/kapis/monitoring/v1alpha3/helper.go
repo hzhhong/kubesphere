@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"kubesphere.io/kubesphere/pkg/api"
+	"github.com/hzhhong/kubesphere/pkg/api"
 
 	"github.com/jszwec/csvutil"
 
@@ -33,8 +33,8 @@ import (
 	"github.com/pkg/errors"
 	corev1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	model "kubesphere.io/kubesphere/pkg/models/monitoring"
-	"kubesphere.io/kubesphere/pkg/simple/client/monitoring"
+	model "github.com/hzhhong/kubesphere/pkg/models/monitoring"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/monitoring"
 )
 
 const (

@@ -25,7 +25,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 
-	"kubesphere.io/kubesphere/kube/pkg/features"
+	"github.com/hzhhong/kubesphere/kube/pkg/features"
 )
 
 // FindPort locates the container port for the given pod and portName.  If the

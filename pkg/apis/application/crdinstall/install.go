@@ -20,7 +20,7 @@ import (
 	k8sruntime "k8s.io/apimachinery/pkg/runtime"
 	urlruntime "k8s.io/apimachinery/pkg/util/runtime"
 
-	"kubesphere.io/kubesphere/pkg/apis/application/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/apis/application/v1alpha1"
 )
 
 func Install(scheme *k8sruntime.Scheme) {

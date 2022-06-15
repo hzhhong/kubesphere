@@ -19,7 +19,7 @@ limitations under the License.
 // Package v1alpha1 contains API Schema definitions for the storage v1alpha1 API group
 // +k8s:openapi-gen=true
 // +k8s:deepcopy-gen=package,register
-// +k8s:conversion-gen=kubesphere.io/kubesphere/pkg/apis/storage
+// +k8s:conversion-gen=github.com/hzhhong/kubesphere/pkg/apis/storage
 // +k8s:defaulter-gen=TypeMeta
 // +groupName=storage.kubesphere.io
 package v1alpha1

@@ -23,11 +23,11 @@ import (
 	"io"
 	"time"
 
-	"kubesphere.io/kubesphere/pkg/simple/client/es"
-	"kubesphere.io/kubesphere/pkg/simple/client/es/query"
-	"kubesphere.io/kubesphere/pkg/simple/client/logging"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/es"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/es/query"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/logging"
 
-	"kubesphere.io/kubesphere/pkg/utils/stringutils"
+	"github.com/hzhhong/kubesphere/pkg/utils/stringutils"
 )
 
 const (

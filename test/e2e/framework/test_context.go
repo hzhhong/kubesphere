@@ -20,7 +20,7 @@ import (
 	"flag"
 	"os"
 
-	"kubesphere.io/kubesphere/test/e2e/constant"
+	"github.com/hzhhong/kubesphere/test/e2e/constant"
 )
 
 type TestContextType struct {

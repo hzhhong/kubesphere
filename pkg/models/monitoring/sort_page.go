@@ -20,7 +20,7 @@ import (
 	"math"
 	"sort"
 
-	"kubesphere.io/kubesphere/pkg/simple/client/monitoring"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/monitoring"
 )
 
 const (

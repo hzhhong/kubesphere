@@ -27,10 +27,10 @@ import (
 	"k8s.io/apiserver/pkg/admission"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 
-	"kubesphere.io/kubesphere/kube/pkg/apis/core/v1/helper"
-	k8sfeatures "kubesphere.io/kubesphere/kube/pkg/features"
-	quota "kubesphere.io/kubesphere/kube/pkg/quota/v1"
-	"kubesphere.io/kubesphere/kube/pkg/quota/v1/generic"
+	"github.com/hzhhong/kubesphere/kube/pkg/apis/core/v1/helper"
+	k8sfeatures "github.com/hzhhong/kubesphere/kube/pkg/features"
+	quota "github.com/hzhhong/kubesphere/kube/pkg/quota/v1"
+	"github.com/hzhhong/kubesphere/kube/pkg/quota/v1/generic"
 )
 
 // the name used for object count quota

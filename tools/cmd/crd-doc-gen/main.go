@@ -26,11 +26,11 @@ import (
 	"k8s.io/apimachinery/pkg/api/meta"
 	urlruntime "k8s.io/apimachinery/pkg/util/runtime"
 
-	applicationv1alpha1 "kubesphere.io/kubesphere/pkg/apis/application/v1alpha1"
-	clusterv1alpha1 "kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1"
-	devopsv1alpha3 "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3"
-	"kubesphere.io/kubesphere/pkg/version"
-	"kubesphere.io/kubesphere/tools/lib"
+	applicationv1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/application/v1alpha1"
+	clusterv1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1"
+	devopsv1alpha3 "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3"
+	"github.com/hzhhong/kubesphere/pkg/version"
+	"github.com/hzhhong/kubesphere/tools/lib"
 
 	"github.com/go-openapi/spec"
 	"k8s.io/apimachinery/pkg/runtime"
@@ -38,15 +38,15 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	"k8s.io/kube-openapi/pkg/common"
 
-	applicationinstall "kubesphere.io/kubesphere/pkg/apis/application/crdinstall"
-	devopsinstall "kubesphere.io/kubesphere/pkg/apis/devops/crdinstall"
-	devopsv1alpha1 "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha1"
-	networkinstall "kubesphere.io/kubesphere/pkg/apis/network/crdinstall"
-	networkv1alpha1 "kubesphere.io/kubesphere/pkg/apis/network/v1alpha1"
-	servicemeshinstall "kubesphere.io/kubesphere/pkg/apis/servicemesh/crdinstall"
-	servicemeshv1alpha2 "kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2"
-	tenantinstall "kubesphere.io/kubesphere/pkg/apis/tenant/crdinstall"
-	tenantv1alpha1 "kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha1"
+	applicationinstall "github.com/hzhhong/kubesphere/pkg/apis/application/crdinstall"
+	devopsinstall "github.com/hzhhong/kubesphere/pkg/apis/devops/crdinstall"
+	devopsv1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha1"
+	networkinstall "github.com/hzhhong/kubesphere/pkg/apis/network/crdinstall"
+	networkv1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/network/v1alpha1"
+	servicemeshinstall "github.com/hzhhong/kubesphere/pkg/apis/servicemesh/crdinstall"
+	servicemeshv1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2"
+	tenantinstall "github.com/hzhhong/kubesphere/pkg/apis/tenant/crdinstall"
+	tenantv1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha1"
 )
 
 var output string

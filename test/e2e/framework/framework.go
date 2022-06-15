@@ -32,9 +32,9 @@ import (
 	"kubesphere.io/client-go/client/generic"
 	"kubesphere.io/client-go/restclient"
 
-	"kubesphere.io/kubesphere/pkg/apis"
-	"kubesphere.io/kubesphere/pkg/constants"
-	"kubesphere.io/kubesphere/test/e2e/framework/workspace"
+	"github.com/hzhhong/kubesphere/pkg/apis"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/test/e2e/framework/workspace"
 )
 
 const (

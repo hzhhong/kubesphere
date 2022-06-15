@@ -22,13 +22,13 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"kubesphere.io/kubesphere/pkg/apiserver/authentication/identityprovider"
-	_ "kubesphere.io/kubesphere/pkg/apiserver/authentication/identityprovider/aliyunidaas"
-	_ "kubesphere.io/kubesphere/pkg/apiserver/authentication/identityprovider/cas"
-	_ "kubesphere.io/kubesphere/pkg/apiserver/authentication/identityprovider/github"
-	_ "kubesphere.io/kubesphere/pkg/apiserver/authentication/identityprovider/ldap"
-	_ "kubesphere.io/kubesphere/pkg/apiserver/authentication/identityprovider/oidc"
-	"kubesphere.io/kubesphere/pkg/apiserver/authentication/oauth"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authentication/identityprovider"
+	_ "github.com/hzhhong/kubesphere/pkg/apiserver/authentication/identityprovider/aliyunidaas"
+	_ "github.com/hzhhong/kubesphere/pkg/apiserver/authentication/identityprovider/cas"
+	_ "github.com/hzhhong/kubesphere/pkg/apiserver/authentication/identityprovider/github"
+	_ "github.com/hzhhong/kubesphere/pkg/apiserver/authentication/identityprovider/ldap"
+	_ "github.com/hzhhong/kubesphere/pkg/apiserver/authentication/identityprovider/oidc"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authentication/oauth"
 )
 
 type AuthenticationOptions struct {

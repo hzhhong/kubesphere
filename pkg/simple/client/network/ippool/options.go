@@ -17,7 +17,7 @@ limitations under the License.
 package ippool
 
 import (
-	"kubesphere.io/kubesphere/pkg/simple/client/network/ippool/calico"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/network/ippool/calico"
 )
 
 type Options struct {

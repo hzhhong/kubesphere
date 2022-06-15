@@ -19,7 +19,7 @@ package ipam
 import (
 	"github.com/containernetworking/cni/pkg/types/current"
 
-	"kubesphere.io/kubesphere/pkg/apis/network/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/apis/network/v1alpha1"
 )
 
 // ipam.Interface has methods to perform IP address management.

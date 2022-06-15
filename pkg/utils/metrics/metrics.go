@@ -26,7 +26,7 @@ import (
 	apimachineryversion "k8s.io/apimachinery/pkg/version"
 	compbasemetrics "k8s.io/component-base/metrics"
 
-	ksVersion "kubesphere.io/kubesphere/pkg/version"
+	ksVersion "github.com/hzhhong/kubesphere/pkg/version"
 )
 
 var (

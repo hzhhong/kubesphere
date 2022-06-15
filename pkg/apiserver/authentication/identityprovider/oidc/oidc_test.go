@@ -38,8 +38,8 @@ import (
 	"github.com/onsi/gomega/gexec"
 	"gopkg.in/square/go-jose.v2"
 
-	"kubesphere.io/kubesphere/pkg/apiserver/authentication/identityprovider"
-	"kubesphere.io/kubesphere/pkg/apiserver/authentication/oauth"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authentication/identityprovider"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authentication/oauth"
 )
 
 var (

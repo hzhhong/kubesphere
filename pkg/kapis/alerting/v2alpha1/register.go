@@ -24,12 +24,12 @@ import (
 	promresourcesclient "github.com/prometheus-operator/prometheus-operator/pkg/client/versioned"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	ksapi "kubesphere.io/kubesphere/pkg/api"
-	alertingv2alpha1 "kubesphere.io/kubesphere/pkg/api/alerting/v2alpha1"
-	"kubesphere.io/kubesphere/pkg/apiserver/runtime"
-	"kubesphere.io/kubesphere/pkg/constants"
-	"kubesphere.io/kubesphere/pkg/informers"
-	"kubesphere.io/kubesphere/pkg/simple/client/alerting"
+	ksapi "github.com/hzhhong/kubesphere/pkg/api"
+	alertingv2alpha1 "github.com/hzhhong/kubesphere/pkg/api/alerting/v2alpha1"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/runtime"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/informers"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/alerting"
 )
 
 const (

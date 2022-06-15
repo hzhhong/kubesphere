@@ -25,7 +25,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/server/params"
+	"github.com/hzhhong/kubesphere/pkg/server/params"
 )
 
 func TestOpenPitrixRelease(t *testing.T) {

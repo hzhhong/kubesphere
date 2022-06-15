@@ -31,8 +31,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	iamv1alpha2 "kubesphere.io/kubesphere/pkg/apis/iam/v1alpha2"
-	controllerutils "kubesphere.io/kubesphere/pkg/controller/utils/controller"
+	iamv1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/iam/v1alpha2"
+	controllerutils "github.com/hzhhong/kubesphere/pkg/controller/utils/controller"
 )
 
 const (

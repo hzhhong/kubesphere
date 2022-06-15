@@ -28,7 +28,7 @@ import (
 	"k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes/fake"
 
-	"kubesphere.io/kubesphere/pkg/api/resource/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/api/resource/v1alpha2"
 )
 
 func service(name, namespace string, selector map[string]string) runtime.Object {

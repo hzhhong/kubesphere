@@ -19,8 +19,8 @@ limitations under the License.
 package cluster
 
 import (
-	v1alpha1 "kubesphere.io/kubesphere/pkg/client/informers/externalversions/cluster/v1alpha1"
-	internalinterfaces "kubesphere.io/kubesphere/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/cluster/v1alpha1"
+	internalinterfaces "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

@@ -39,11 +39,11 @@ import (
 	"k8s.io/klog"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	iamv1alpha2 "kubesphere.io/kubesphere/pkg/apis/iam/v1alpha2"
-	kubesphere "kubesphere.io/kubesphere/pkg/client/clientset/versioned"
-	iamv1alpha2informers "kubesphere.io/kubesphere/pkg/client/informers/externalversions/iam/v1alpha2"
-	iamv1alpha2listers "kubesphere.io/kubesphere/pkg/client/listers/iam/v1alpha2"
-	"kubesphere.io/kubesphere/pkg/constants"
+	iamv1alpha2 "github.com/hzhhong/kubesphere/pkg/apis/iam/v1alpha2"
+	kubesphere "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
+	iamv1alpha2informers "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/iam/v1alpha2"
+	iamv1alpha2listers "github.com/hzhhong/kubesphere/pkg/client/listers/iam/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/constants"
 )
 
 const (

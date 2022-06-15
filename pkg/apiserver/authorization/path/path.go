@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"kubesphere.io/kubesphere/pkg/apiserver/authorization/authorizer"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authorization/authorizer"
 
 	"k8s.io/apimachinery/pkg/util/sets"
 )

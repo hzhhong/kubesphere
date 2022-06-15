@@ -17,7 +17,7 @@ limitations under the License.
 package monitoring
 
 import (
-	"kubesphere.io/kubesphere/pkg/simple/client/monitoring"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/monitoring"
 )
 
 type Metrics struct {

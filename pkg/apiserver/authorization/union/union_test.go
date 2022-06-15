@@ -24,7 +24,7 @@ import (
 
 	"k8s.io/apiserver/pkg/authentication/user"
 
-	"kubesphere.io/kubesphere/pkg/apiserver/authorization/authorizer"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/authorization/authorizer"
 )
 
 type mockAuthzHandler struct {

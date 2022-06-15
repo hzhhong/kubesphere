@@ -34,11 +34,11 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/tools/record"
 
-	"kubesphere.io/kubesphere/pkg/apis/servicemesh/v1alpha2"
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned/fake"
-	informers "kubesphere.io/kubesphere/pkg/client/informers/externalversions"
-	"kubesphere.io/kubesphere/pkg/controller/utils/servicemesh"
-	"kubesphere.io/kubesphere/pkg/utils/reflectutils"
+	"github.com/hzhhong/kubesphere/pkg/apis/servicemesh/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/fake"
+	informers "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
+	"github.com/hzhhong/kubesphere/pkg/controller/utils/servicemesh"
+	"github.com/hzhhong/kubesphere/pkg/utils/reflectutils"
 )
 
 var (

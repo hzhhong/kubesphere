@@ -21,8 +21,8 @@ package calicov3
 import (
 	rest "k8s.io/client-go/rest"
 
-	calicov3 "kubesphere.io/kubesphere/pkg/apis/network/calicov3"
-	"kubesphere.io/kubesphere/pkg/simple/client/network/ippool/calico/client/clientset/versioned/scheme"
+	calicov3 "github.com/hzhhong/kubesphere/pkg/apis/network/calicov3"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/network/ippool/calico/client/clientset/versioned/scheme"
 )
 
 type CrdCalicov3Interface interface {

@@ -283,12 +283,12 @@ func GetOpenAPIDefinitions(ref common.ReferenceCallback) map[string]common.OpenA
 		"k8s.io/apimachinery/pkg/runtime.RawExtension":                        schema_k8sio_apimachinery_pkg_runtime_RawExtension(ref),
 		"k8s.io/apimachinery/pkg/runtime.TypeMeta":                            schema_k8sio_apimachinery_pkg_runtime_TypeMeta(ref),
 		"k8s.io/apimachinery/pkg/runtime.Unknown":                             schema_k8sio_apimachinery_pkg_runtime_Unknown(ref),
-		"kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1.Cluster":          schema_pkg_apis_cluster_v1alpha1_Cluster(ref),
-		"kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1.ClusterCondition": schema_pkg_apis_cluster_v1alpha1_ClusterCondition(ref),
-		"kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1.ClusterList":      schema_pkg_apis_cluster_v1alpha1_ClusterList(ref),
-		"kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1.ClusterSpec":      schema_pkg_apis_cluster_v1alpha1_ClusterSpec(ref),
-		"kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1.ClusterStatus":    schema_pkg_apis_cluster_v1alpha1_ClusterStatus(ref),
-		"kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1.Connection":       schema_pkg_apis_cluster_v1alpha1_Connection(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1.Cluster":          schema_pkg_apis_cluster_v1alpha1_Cluster(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1.ClusterCondition": schema_pkg_apis_cluster_v1alpha1_ClusterCondition(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1.ClusterList":      schema_pkg_apis_cluster_v1alpha1_ClusterList(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1.ClusterSpec":      schema_pkg_apis_cluster_v1alpha1_ClusterSpec(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1.ClusterStatus":    schema_pkg_apis_cluster_v1alpha1_ClusterStatus(ref),
+		"github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1.Connection":       schema_pkg_apis_cluster_v1alpha1_Connection(ref),
 	}
 }
 
@@ -13334,19 +13334,19 @@ func schema_pkg_apis_cluster_v1alpha1_Cluster(ref common.ReferenceCallback) comm
 					},
 					"spec": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1.ClusterSpec"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1.ClusterSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1.ClusterStatus"),
+							Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1.ClusterStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta", "kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1.ClusterSpec", "kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1.ClusterStatus"},
+			"k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta", "github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1.ClusterSpec", "github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1.ClusterStatus"},
 	}
 }
 
@@ -13436,7 +13436,7 @@ func schema_pkg_apis_cluster_v1alpha1_ClusterList(ref common.ReferenceCallback) 
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1.Cluster"),
+										Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1.Cluster"),
 									},
 								},
 							},
@@ -13447,7 +13447,7 @@ func schema_pkg_apis_cluster_v1alpha1_ClusterList(ref common.ReferenceCallback) 
 			},
 		},
 		Dependencies: []string{
-			"k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta", "kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1.Cluster"},
+			"k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta", "github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1.Cluster"},
 	}
 }
 
@@ -13481,14 +13481,14 @@ func schema_pkg_apis_cluster_v1alpha1_ClusterSpec(ref common.ReferenceCallback) 
 					"connection": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Connection holds info to connect to the member cluster",
-							Ref:         ref("kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1.Connection"),
+							Ref:         ref("github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1.Connection"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1.Connection"},
+			"github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1.Connection"},
 	}
 }
 
@@ -13505,7 +13505,7 @@ func schema_pkg_apis_cluster_v1alpha1_ClusterStatus(ref common.ReferenceCallback
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1.ClusterCondition"),
+										Ref: ref("github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1.ClusterCondition"),
 									},
 								},
 							},
@@ -13565,7 +13565,7 @@ func schema_pkg_apis_cluster_v1alpha1_ClusterStatus(ref common.ReferenceCallback
 			},
 		},
 		Dependencies: []string{
-			"kubesphere.io/kubesphere/pkg/apis/cluster/v1alpha1.ClusterCondition"},
+			"github.com/hzhhong/kubesphere/pkg/apis/cluster/v1alpha1.ClusterCondition"},
 	}
 }
 

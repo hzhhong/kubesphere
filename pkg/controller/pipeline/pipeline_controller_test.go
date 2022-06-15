@@ -23,9 +23,9 @@ import (
 
 	v1 "k8s.io/api/core/v1"
 
-	"kubesphere.io/kubesphere/pkg/constants"
-	modelsdevops "kubesphere.io/kubesphere/pkg/models/devops"
-	fakeDevOps "kubesphere.io/kubesphere/pkg/simple/client/devops/fake"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	modelsdevops "github.com/hzhhong/kubesphere/pkg/models/devops"
+	fakeDevOps "github.com/hzhhong/kubesphere/pkg/simple/client/devops/fake"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
@@ -37,9 +37,9 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/tools/record"
 
-	devops "kubesphere.io/kubesphere/pkg/apis/devops/v1alpha3"
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned/fake"
-	informers "kubesphere.io/kubesphere/pkg/client/informers/externalversions"
+	devops "github.com/hzhhong/kubesphere/pkg/apis/devops/v1alpha3"
+	"github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/fake"
+	informers "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
 )
 
 var (

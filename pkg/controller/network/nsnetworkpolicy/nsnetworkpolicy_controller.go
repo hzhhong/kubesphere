@@ -38,14 +38,14 @@ import (
 	"k8s.io/client-go/util/workqueue"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/apis/network/v1alpha1"
-	workspacev1alpha1 "kubesphere.io/kubesphere/pkg/apis/tenant/v1alpha1"
-	ksnetclient "kubesphere.io/kubesphere/pkg/client/clientset/versioned/typed/network/v1alpha1"
-	nspolicy "kubesphere.io/kubesphere/pkg/client/informers/externalversions/network/v1alpha1"
-	workspace "kubesphere.io/kubesphere/pkg/client/informers/externalversions/tenant/v1alpha1"
-	"kubesphere.io/kubesphere/pkg/constants"
-	"kubesphere.io/kubesphere/pkg/controller/network/nsnetworkpolicy/provider"
-	options "kubesphere.io/kubesphere/pkg/simple/client/network"
+	"github.com/hzhhong/kubesphere/pkg/apis/network/v1alpha1"
+	workspacev1alpha1 "github.com/hzhhong/kubesphere/pkg/apis/tenant/v1alpha1"
+	ksnetclient "github.com/hzhhong/kubesphere/pkg/client/clientset/versioned/typed/network/v1alpha1"
+	nspolicy "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/network/v1alpha1"
+	workspace "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions/tenant/v1alpha1"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/controller/network/nsnetworkpolicy/provider"
+	options "github.com/hzhhong/kubesphere/pkg/simple/client/network"
 )
 
 const (

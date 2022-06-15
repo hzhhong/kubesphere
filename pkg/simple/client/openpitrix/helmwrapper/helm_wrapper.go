@@ -37,8 +37,8 @@ import (
 	kpath "k8s.io/utils/path"
 	"sigs.k8s.io/kustomize/api/types"
 
-	"kubesphere.io/kubesphere/pkg/server/errors"
-	"kubesphere.io/kubesphere/pkg/utils/idutils"
+	"github.com/hzhhong/kubesphere/pkg/server/errors"
+	"github.com/hzhhong/kubesphere/pkg/utils/idutils"
 )
 
 const (

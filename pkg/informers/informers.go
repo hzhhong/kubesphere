@@ -30,8 +30,8 @@ import (
 	k8sinformers "k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes"
 
-	"kubesphere.io/kubesphere/pkg/client/clientset/versioned"
-	ksinformers "kubesphere.io/kubesphere/pkg/client/informers/externalversions"
+	"github.com/hzhhong/kubesphere/pkg/client/clientset/versioned"
+	ksinformers "github.com/hzhhong/kubesphere/pkg/client/informers/externalversions"
 )
 
 // default re-sync period for all informer factories

@@ -24,9 +24,9 @@ import (
 	"github.com/emicklei/go-restful"
 	"k8s.io/klog"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	"kubesphere.io/kubesphere/pkg/models/devops"
-	"kubesphere.io/kubesphere/pkg/utils/hashutil"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	"github.com/hzhhong/kubesphere/pkg/models/devops"
+	"github.com/hzhhong/kubesphere/pkg/utils/hashutil"
 )
 
 type S2iBinaryHandler struct {

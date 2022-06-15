@@ -26,16 +26,16 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/kubernetes"
 
-	"kubesphere.io/kubesphere/pkg/api"
-	"kubesphere.io/kubesphere/pkg/api/resource/v1alpha2"
-	"kubesphere.io/kubesphere/pkg/apiserver/runtime"
-	"kubesphere.io/kubesphere/pkg/constants"
-	"kubesphere.io/kubesphere/pkg/informers"
-	"kubesphere.io/kubesphere/pkg/models"
-	gitmodel "kubesphere.io/kubesphere/pkg/models/git"
-	registriesmodel "kubesphere.io/kubesphere/pkg/models/registries"
-	"kubesphere.io/kubesphere/pkg/server/errors"
-	"kubesphere.io/kubesphere/pkg/server/params"
+	"github.com/hzhhong/kubesphere/pkg/api"
+	"github.com/hzhhong/kubesphere/pkg/api/resource/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/apiserver/runtime"
+	"github.com/hzhhong/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/informers"
+	"github.com/hzhhong/kubesphere/pkg/models"
+	gitmodel "github.com/hzhhong/kubesphere/pkg/models/git"
+	registriesmodel "github.com/hzhhong/kubesphere/pkg/models/registries"
+	"github.com/hzhhong/kubesphere/pkg/server/errors"
+	"github.com/hzhhong/kubesphere/pkg/server/params"
 )
 
 const (

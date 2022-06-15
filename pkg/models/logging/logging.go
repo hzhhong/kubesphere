@@ -19,8 +19,8 @@ package logging
 import (
 	"io"
 
-	"kubesphere.io/kubesphere/pkg/api/logging/v1alpha2"
-	"kubesphere.io/kubesphere/pkg/simple/client/logging"
+	"github.com/hzhhong/kubesphere/pkg/api/logging/v1alpha2"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/logging"
 )
 
 type LoggingOperator interface {

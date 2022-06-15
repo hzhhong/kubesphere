@@ -27,7 +27,7 @@ import (
 	"kubesphere.io/client-go/client/generic"
 	"kubesphere.io/client-go/restclient"
 
-	"kubesphere.io/kubesphere/test/e2e/framework"
+	"github.com/hzhhong/kubesphere/test/e2e/framework"
 )
 
 //NewClient creates a new client with user authencation

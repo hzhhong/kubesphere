@@ -5,13 +5,13 @@ import (
 	"testing"
 	"time"
 
-	"kubesphere.io/kubesphere/pkg/constants"
+	"github.com/hzhhong/kubesphere/pkg/constants"
 
 	"github.com/google/go-cmp/cmp"
 
-	"kubesphere.io/kubesphere/pkg/models/metering"
-	monitoringmodel "kubesphere.io/kubesphere/pkg/models/monitoring"
-	"kubesphere.io/kubesphere/pkg/simple/client/monitoring"
+	"github.com/hzhhong/kubesphere/pkg/models/metering"
+	monitoringmodel "github.com/hzhhong/kubesphere/pkg/models/monitoring"
+	"github.com/hzhhong/kubesphere/pkg/simple/client/monitoring"
 )
 
 func TestIsRangeQuery(t *testing.T) {

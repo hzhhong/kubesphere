@@ -28,7 +28,7 @@ import (
 	"k8s.io/apimachinery/pkg/selection"
 	"k8s.io/apimachinery/pkg/util/validation"
 
-	"kubesphere.io/kubesphere/kube/pkg/apis/core/helper"
+	"github.com/hzhhong/kubesphere/kube/pkg/apis/core/helper"
 )
 
 // IsExtendedResourceName returns true if:
